@@ -21,11 +21,11 @@ import json
 import random
 
 # Delay between requests in seconds (increase to avoid rate limiting)
-REQUEST_DELAY = 5
+REQUEST_DELAY = 3
 # Add random jitter to delay (0 to this value in seconds)
-JITTER_MAX = 2
+JITTER_MAX = 1
 # Wait time in minutes when rate limited before retrying
-RATE_LIMIT_WAIT_MINUTES = 1
+RATE_LIMIT_WAIT_MINUTES = 0.25
 # Maximum retries after rate limit before giving up
 MAX_RATE_LIMIT_RETRIES = 10
 
