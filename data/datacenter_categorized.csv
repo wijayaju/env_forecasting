@@ -1,0 +1,622 @@
+data_center_id,data_center_name,state,city,latitude,longitude,year_operational,capacity_mw,capacity_sqft,is_planned,dc_category,capacity_mw_est,estimated_energy_mwh
+210-n-tucker,Netrality - 210 N Tucker St St. Louis Data Center,Missouri,St. Louis,38.629055,-90.197717,1990.0,20.0,442837.0,False,decent,20.0,147000.0
+tierpoint-stlouis-olive,TierPoint St. Louis-Olive,Missouri,St. Louis,38.6297652,-90.1964459,2011.0,,11000.0,False,small,2.0,14000.0
+bluebird-underground,Bluebird Underground,Missouri,Springfield,37.23119970779098,-93.21257829666138,2003.0,6.0,,False,small,6.0,42000.0
+patmos-kansas-city,Patmos Kansas City,Missouri,Kansas City,39.0947391,-94.5793757,2006.0,100.0,400000.0,False,big_ai,100.0,705600.0
+meta-kansas-city-building-1,Meta Kansas City - Building 1,Missouri,Kansas City,39.32270498045392,-94.59795399688952,2025.0,,,False,big_ai,50.0,352800.0
+iron-mountain-kcm-1,Iron Mountain Data Centers KCM-1,Missouri,Kansas City,39.0110286,-94.5012027,2006.0,3.9,,False,small,3.9,27300.0
+11155-n-airworld-dr,Lambda Kansas City,Missouri,Kansas City,39.2956805,-94.6740566,2026.0,100.0,,False,big_ai,100.0,705600.0
+aaim-missouri-1,AAIM Missouri 1,Missouri,Mexico,39.16575620561504,-91.87113858465726,2024.0,15.0,,False,decent,15.0,110250.0
+core-scientific-marble,Core Scientific Marble,North Carolina,Marble,35.18557054286533,-83.91614842883564,2018.0,105.0,,False,crypto,105.0,873810.0
+immedion-technology,"DartPoints Asheville, NC - AVL01",North Carolina,Asheville,35.4888818,-82.5582222,2011.0,1.5,11200.0,False,small,1.5,10500.0
+solidspace,SolidSpace,North Carolina,Winston-Salem,36.1812299,-80.2823575,1993.0,1.0,13000.0,False,small,1.0,7000.0
+datachambers,Segra Winston-Salem,North Carolina,Winston-Salem,36.0559097,-80.2274853,2002.0,3.5,29000.0,False,small,3.5,24500.0
+cisco-rtp-data-center,Cisco RTP Data Center,North Carolina,Morrisville,35.85535253382376,-78.86811183999367,2011.0,2.8,19200.0,False,small,2.8,19600.0
+american-tower-raleigh,American Tower AEDC Raleigh,North Carolina,Raleigh,35.7879906,-78.7263718,2025.0,4.0,4000.0,False,small,4.0,28000.0
+datachambers3,Segra Raleigh,North Carolina,Raleigh,35.724984,-78.6623626,2013.0,3.0,7800.0,False,small,3.0,21000.0
+ait-fayetteville,AIT.com Data Center,North Carolina,Fayetteville,35.0546519,-78.882739,2000.0,,27000.0,False,small,2.0,14000.0
+segra-charlotte-1,Segra Charlotte 1,North Carolina,Charlotte,35.1938979,-80.9372017,2011.0,0.5,5000.0,False,small,0.5,3500.0
+125-north-myers-street,125 North Myers Street (CTL11),North Carolina,Charlotte,35.2218852,-80.8355384,2000.0,0.9,7500.0,False,small,0.9,6300.0
+data-journey-claremont,Data Journey Catawba County,North Carolina,Claremont,35.7014246,-81.1565612,2013.0,30.0,47500.0,False,decent,30.0,220500.0
+dc74,Segra Charlotte 2,North Carolina,Charlotte,35.1938069,-80.9384415,2012.0,2.5,14032.0,False,small,2.5,17500.0
+scalematrix-charlotte-us-east-01,ScaleMatrix Charlotte,North Carolina,Charlotte,35.1731908,-80.9281183,1999.0,3.0,,False,small,3.0,21000.0
+datachambers4,Segra Kannapolis,North Carolina,Kannapolis,35.5051704,-80.6227366,2015.0,2.4,15216.0,False,small,2.4,16800.0
+731-east-trade-street,731 East Trade Street (CTL12),North Carolina,Charlotte,35.2215267,-80.8359964,2000.0,,40800.0,False,small,2.0,14000.0
+113-north-myers-street,113 North Myers Street (CLT10),North Carolina,Charlotte,35.2218852,-80.8355384,1999.0,0.6,3500.0,False,small,0.6,4200.0
+impactdata-greensboro-dream-center,ImpactData Greensboro Dream Center,North Carolina,Greensboro,36.0575826,-79.745705,2026.0,300.0,65000.0,False,big_ai,300.0,2116800.0
+805-island-drive,Enovum Data Centers NC01 - Madison,North Carolina,Madison,36.4041401,-79.9890524,2026.0,200.0,,False,big_ai,200.0,1411200.0
+goldsboro-networks,Tarheel Cloud Data Center,North Carolina,Princeton,35.46572709215928,-78.16024426370859,2011.0,15.0,4300.0,False,decent,15.0,110250.0
+applied-digital-eln-datacenter,Applied Digital Polaris Forge 1,North Dakota,Ellendale,46.01508479946312,-98.57233254208022,2025.0,,,False,crypto,50.0,416100.0
+midco-fargo1,Midco Fargo,North Dakota,Fargo,46.8365002,-96.8658885,2018.0,1.75,7500.0,False,small,1.75,12250.0
+core-scientific-grand-forks,Core Scientific Grand Forks,North Dakota,Grand Forks,47.90964296602304,-97.11151765887791,2021.0,100.0,,False,crypto,100.0,832200.0
+cordova-electric-data-center,Cordova Electric Data Center,Alaska,Cordova,60.5935199194642,-145.5792856864176,2024.0,0.15,,False,small,0.15,1050.0
+1400-east-devon-avenue,1400 East Devon Avenue (CH3),Illinois,Elk Grove Village,41.9942329,-87.9648002,2017.0,27.0,139000.0,False,decent,27.0,198450.0
+qts-chicago,QTS Chicago 1 DC1,Illinois,Chicago,41.8418945,-87.6679234,2016.0,42.0,208000.0,False,decent,42.0,308700.0
+hydravault-data-center,HydraVault Data Center,Illinois,Chicago,41.8462436,-87.6257043,2026.0,20.0,76000.0,False,decent,20.0,147000.0
+equinix-ch5,Equinix CH5,Illinois,Elk Grove Village,42.0014585,-87.9537333,2025.0,,,False,decent,15.0,110250.0
+717-s-wells-st,Netrality - 717 South Wells Chicago Data Center,Illinois,Chicago,41.872911,-87.63327,1990.0,5.0,26100.0,False,small,5.0,35000.0
+tierpoint-chicago-west,TierPoint Chicago - West,Illinois,Franklin Park,41.9268739,-87.8583471,2014.0,2.4,26000.0,False,small,2.4,16800.0
+sirius-data-center,CDW Elk Grove Data Center,Illinois,Elk Grove Village,42.00270313594124,-87.95899332617978,2015.0,3.0,30000.0,False,small,3.0,21000.0
+gigenet,GigeNET Chicago,Illinois,Arlington Heights,42.040427,-87.9760053,2006.0,,17000.0,False,small,2.0,14000.0
+colocrossing-ch1,ColoCrossing CH1,Illinois,Elk Grove Village,41.9942995,-87.9623356,2008.0,36.4,460000.0,False,decent,36.4,267540.0
+colovore-ord01,Colovore ORD01,Illinois,Aurora,41.7605849,-88.32007150000001,2026.0,20.0,,False,decent,20.0,147000.0
+400-s-lasalle-st,Legacy - Chicago Byte Exchange,Illinois,Chicago,41.8764788,-87.6321341,2026.0,33.0,100000.0,False,decent,33.0,242550.0
+server-central-chicago,Summit Chicago,Illinois,Chicago,41.853036,-87.61886,2000.0,70.0,,False,big_ai,70.0,493920.0
+xnet-critical-computing-facility,XNet Critical Computing Facility,Illinois,Lisle,41.796754,-88.112567,1993.0,,,False,small,2.0,14000.0
+coresite-chicago-ch2,CoreSite Chicago (CH2),Illinois,Chicago,41.8628253,-87.6412923,2020.0,18.0,102000.0,False,decent,18.0,132300.0
+9377-grand-avenue,9333 Grand Avenue (ORD12),Illinois,Franklin Park,41.9266672,-87.8587419,1991.0,6.7,56700.0,False,small,6.7,46900.0
+iron-mountain-chi-1,Iron Mountain Data Centers CHI-1,Illinois,Des Plaines,42.0111891,-87.8811769,2025.0,36.0,,False,decent,36.0,264600.0
+2200-busse-road,2200 Busse Road (CH1),Illinois,Elk Grove Village,41.9942501,-87.961949,2007.0,36.4,262900.0,False,decent,36.4,267540.0
+hostway-boeing-data-center,Data Canopy - Boeing ,Illinois,Chicago,41.8838129,-87.6388294,2006.0,,50000.0,False,small,2.0,14000.0
+microsoft-northlake,Microsoft Northlake,Illinois,Northlake,41.9229989,-87.9182329,2009.0,,700000.0,False,big_ai,50.0,352800.0
+tierpoint-chicago,TierPoint Chicago - Polk,Illinois,Chicago,41.8716165,-87.6428248,2013.0,,16000.0,False,small,2.0,14000.0
+bytegrid-aurora-chi1,US Signal Aurora IL02,Illinois,Aurora,41.7722129,-88.2135576,2007.0,6.0,34000.0,False,small,6.0,42000.0
+edgecore-ashburn-as02,EdgeCore Ashburn AS02,Virginia,Sterling,38.9947719,-77.4443082,2026.0,42.0,,False,decent,42.0,308700.0
+rap-data-center,Rockbridge Area Network Authority - RAP Data Center,Virginia,Lexington,37.7828373,-79.4437978,2014.0,0.1,,False,small,0.1,700.0
+ntt-gainesville-va11,GDC - VA11 Data Center,Virginia,Gainesville,38.800446,-77.611984,2026.0,92.0,336000.0,False,big_ai,92.0,649152.0
+ntt-gainesville-va10,GDC - VA10 Data Center,Virginia,Gainesville,38.799419,-77.610214,2024.0,84.0,295680.0,False,big_ai,84.0,592704.0
+power-loft-innovation,Cloud Capital - 9651 Hornbaker,Virginia,Manassas,38.74741286878826,-77.53174131910815,2010.0,30.0,,False,decent,30.0,220500.0
+iron-mountain-va-2,Iron Mountain Data Centers VA-2,Virginia,Manassas,38.77710296786073,-77.54591432365577,2019.0,36.0,,False,decent,36.0,264600.0
+evoswitch-wdc-1,EvoSwitch Manassas (WDC1),Virginia,Manassas,38.7464612,-77.5330785,2011.0,20.0,235000.0,False,decent,20.0,147000.0
+iron-mountain-va-1,Iron Mountain Data Centers VA-1,Virginia,Manassas,38.77792264250294,-77.54703012251925,2017.0,13.0,,False,decent,13.0,95550.0
+gweb-data-center,Richweb Data Center,Virginia,Mechanicsville,37.6119888,-77.3392405,1996.0,,10000.0,False,small,2.0,14000.0
+globalinx-virginia-beach,Globalinx Virginia Beach,Virginia,Virginia Beach,36.7842314,-76.0086242,2018.0,30.0,287000.0,False,decent,30.0,220500.0
+ndc01,NetEx NDC01,Virginia,Vienna,38.9333586,-77.2378123,1999.0,,,False,small,2.0,14000.0
+44480-hastings-drive,44480 Hastings Drive (ACC4),Virginia,Ashburn,39.0178075,-77.4624887,2007.0,36.4,183900.0,False,decent,36.4,267540.0
+43791-devin-shafron-drive,43791 Devin Shafron Drive (IAD14),Virginia,Ashburn,39.003285,-77.487214,2010.0,6.9,51400.0,False,small,6.9,48300.0
+aligned-iad-02,Aligned IAD-02,Virginia,Ashburn,39.010247,-77.4749719,2020.0,120.0,283023.0,False,big_ai,120.0,846720.0
+equinix-dc22,Equinix DC22,Virginia,Ashburn,39.01377210793382,-77.45376597765666,2025.0,,,False,decent,15.0,110250.0
+ntt-ashburn-va8,GDC - Ashburn VA8 Data Center,Virginia,Ashburn,39.018737,-77.4759974,2023.0,20.4,,False,decent,20.4,149940.0
+equinix-dc12,Equinix DC12,Virginia,Ashburn,39.0229665,-77.4497901,2017.0,,114328.0,False,decent,15.0,110250.0
+43831-devin-shafron-iad13,43831 Devin Shafron (IAD13),Virginia,Ashburn,39.00267079094796,-77.48537452075928,2001.0,,117000.0,False,small,2.0,14000.0
+edgecore-ashburn-as01,EdgeCore Ashburn AS01,Virginia,Sterling,39.0218016,-77.4146767,2026.0,72.0,,False,big_ai,72.0,508032.0
+44274-round-table-plaza-bldg-l,"44274 Round Table Plaza, Bldg L (IAD39)",Virginia,Ashburn,39.0077105,-77.4676609,2017.0,96.3,469600.0,False,big_ai,96.3,679492.7999999999
+43830-devin-shafron-dr,43830 Devin Shafron Drive (IAD24),Virginia,Ashburn,39.004182,-77.484108,2011.0,6.8,57700.0,False,small,6.8,47600.0
+44521-hastings-drive,44521 Hastings Drive (ACC5),Virginia,Ashburn,39.0201312,-77.4632058,2009.0,36.4,360000.0,False,decent,36.4,267540.0
+equinix-ashburn1,Equinix DC1,Virginia,Ashburn,39.0155544,-77.4603448,1999.0,,19934.0,False,decent,15.0,110250.0
+22124-broderick-drive-r,"22124 Broderick Drive, Bldg R (IAD42)",Virginia,Ashburn,39.005589,-77.449503,2021.0,48.0,208200.0,False,decent,48.0,352800.0
+43881-devin-shafron-drive,43940 Digital Loudoun Plaza (IAD35),Virginia,Ashburn,39.0005693,-77.4805131,2013.0,26.4,223800.0,False,decent,26.4,194040.0
+ragingwire-ashburn,GDC - Ashburn VA1 Data Center,Virginia,Ashburn,39.022193,-77.455587,2000.0,12.6,64723.0,False,decent,12.6,92610.0
+aligned-iad-01,Aligned IAD-01,Virginia,Ashburn,39.013328,-77.47145200000001,2019.0,60.0,,False,big_ai,60.0,423360.0
+43790-devin-shafron-dr,43790 Devin Shafron Dr,Virginia,Ashburn,39.0050545,-77.4856124,2011.0,,,False,small,2.0,14000.0
+21625-gresham-drive,21625 Gresham Drive (ACC7),Virginia,Ashburn,39.0175221,-77.4656757,2014.0,41.6,259200.0,False,decent,41.6,305760.0
+44372-round-table-plaza-bldg-m,"44372 Round Table Plaza, Bldg M (IAD40)",Virginia,Ashburn,39.0064492,-77.4670489,2017.0,24.0,69600.0,False,decent,24.0,176400.0
+powerhouse-abx1,CyrusOne NVA14,Virginia,Ashburn,39.01963454166167,-77.45053166694414,2023.0,60.0,,False,big_ai,60.0,423360.0
+43915-devin-shafron-drive,43881 Devin Shafron Drive (IAD12),Virginia,Ashburn,39.0019437,-77.4834425,2001.0,9.0,57100.0,False,small,9.0,63000.0
+dulles-exchange,365 Data Centers - Herndon,Virginia,Herndon,38.9343841,-77.428724,2012.0,0.83,,False,small,0.83,5810.0
+brightspeed-charlottesville,Brightspeed Charlottesville,Virginia,Charlottesville,38.031094,-78.48693399999999,1949.0,,86150.0,False,small,2.0,14000.0
+university-of-virginia-data-center,University of Virginia Data Center,Virginia,Charlottesville,38.0481029,-78.5235295,2011.0,1.5,5500.0,False,small,1.5,10500.0
+amazon-aws-iad-22370-kipper,Amazon AWS IAD - 22370 Kipper,Virginia,Dulles,38.996839,-77.435703,2020.0,,,False,big_ai,50.0,352800.0
+amazon-aws-iad-22420-kipper,Amazon AWS IAD - 22420 Kipper,Virginia,Dulles,38.995047,-77.435287,2021.0,,,False,big_ai,50.0,352800.0
+yondr-loundoun-county-dc1,Yondr Loundoun County DC1,Virginia,Aldie,38.9501009,-77.54978899999999,2024.0,48.0,,False,decent,48.0,352800.0
+22262-cloud-plz,22262 Cloud Plz,Virginia,Dulles,39.0005746,-77.4397659,2019.0,46.0,,False,decent,46.0,338100.0
+vivio-ww-ts-site,Vivio Technologies - WW TS Site,Washington,Walla Walla,46.0584328,-118.3661403,2002.0,,3500.0,False,small,2.0,14000.0
+walla-walla-co,Vivio Technologies - WW UG Site,Washington,Walla Walla,46.0665961,-118.340416,2002.0,,1200.0,False,small,2.0,14000.0
+columbia-colocation,Columbia Colocation,Washington,Quincy,47.2300411,-120.0012802,2021.0,0.03,135.0,False,small,0.03,210.0
+colocrossing-sea1,ColoCrossing SEA1,Washington,Seattle,47.4931576,-122.2938323,1999.0,10.0,18000.0,False,decent,10.0,73500.0
+the-westin-building-dlr,2001 Sixth Avenue (SEA10),Washington,Seattle,47.614358,-122.3388642,1981.0,19.5,398600.0,False,decent,19.5,143325.0
+coloinseattlecom,ColoInSeattle.com,Washington,Seattle,47.491604,-122.292301,2001.0,2.0,18000.0,False,small,2.0,14000.0
+worldlink-colocation-services,Pacific Internet North Datacenter,Washington,Bothell,47.793971,-122.195993,2003.0,1.0,,False,small,1.0,7000.0
+semaphore-seattle,Semaphore Seattle,Washington,Seattle,47.6143677,-122.3388981,1995.0,,,False,small,2.0,14000.0
+the-westin-building,The Westin Building,Washington,Seattle,47.6137108,-122.3382624,1981.0,19.0,300000.0,False,decent,19.0,139650.0
+2020-5th-avenue,2020 5th Avenue (SEA11),Washington,Seattle,47.6144252,-122.3397368,1975.0,,,False,small,2.0,14000.0
+h5dc-seattle,H5 Data Centers Seattle,Washington,South Lake Union,47.619054,-122.336393,1929.0,,40000.0,False,small,2.0,14000.0
+south-hill-dc,Colocation Northwest - South Hill,Washington,Puyallup,47.1608567,-122.2793217,2017.0,7.0,60000.0,False,small,7.0,49000.0
+optic-fusion,Optic Fusion - Perkins Building,Washington,Tacoma,47.253329,-122.436741,2001.0,1.0,10000.0,False,small,1.0,7000.0
+colonorthwest-tacoma,Colocation Northwest - Tacoma,Washington,Tacoma,47.2533381,-122.4367086,1999.0,0.15,5000.0,False,small,0.15,1050.0
+bitdeer-wenatchee-washington,Bitdeer Washington,Washington,East Wenatchee,47.41402423123076,-120.2106899118301,2018.0,13.0,,False,crypto,13.0,108186.0
+tierpoint,TierPoint Spokane,Washington,Liberty Lake,47.6719306,-117.0912923,2003.0,,21000.0,False,small,2.0,14000.0
+tierpoint-spo03,TierPoint Spokane 3,Washington,Liberty Lake,47.6719509,-117.095966,2011.0,,9900.0,False,small,2.0,14000.0
+interlink,Interlink Data Center,Washington,Spokane,47.6554241,-117.4042987,1994.0,,,False,small,2.0,14000.0
+teljet-longhaul,FirstLight Williston VT,Vermont,Williston,44.450544,-73.127403,2011.0,,20000.0,False,small,2.0,14000.0
+t5-data-centers-t5atlanta,T5 Data Centers - T5@Atlanta 1,Georgia,Lithia Springs,33.763433,-84.60498,2023.0,20.0,162500.0,False,decent,20.0,147000.0
+colocrossing-ga1,ColoCrossing GA1,Georgia,Atlanta,33.7549598,-84.3898518,2014.0,1.6,,False,small,1.6,11200.0
+coloblox-marietta-data-center,Coloblox Marietta Data Center,Georgia,Atlanta,33.8839421,-84.472222,1998.0,,,False,decent,15.0,110250.0
+250-williams-st-nw,250 Williams St NW (ATL14),Georgia,Atlanta,33.7616045,-84.3913965,1989.0,3.6,15900.0,False,small,3.6,25200.0
+55-marietta,55 Marietta Street,Georgia,Atlanta,33.755807,-84.391066,1958.0,18.0,,False,decent,18.0,132300.0
+qts-atlanta-suwanee-dc-2,QTS Suwanee 1 DC2,Georgia,Suwanee,34.0370725,-84.05762879999999,2006.0,30.0,146000.0,False,decent,30.0,220500.0
+cyber-wurx-llc,Cyber Wurx LLC,Georgia,Atlanta,33.7559437,-84.3911017,1997.0,2.0,,False,small,2.0,14000.0
+qts-suwanee,QTS Suwanee 1 DC1,Georgia,Suwanee,34.0352725,-84.0610703,2000.0,26.0,205000.0,False,decent,26.0,191100.0
+coresite-at2,CoreSite Atlanta (AT2),Georgia,Marietta,33.92542846315679,-84.48159144047548,2004.0,,73000.0,False,decent,15.0,110250.0
+ixp-farm-columbus,JMF IXP Farm Columbus,Georgia,Columbus,32.49822738,-84.88354903,1997.0,7.5,50000.0,False,small,7.5,52500.0
+atlanta-data-center,Atlanta Data Center,Georgia,Atlanta,33.755562,-84.391101,1995.0,,8760.0,False,small,2.0,14000.0
+4905-north-point-pkwy,4905 North Point Pkwy,Georgia,Alpharetta,34.0570483,-84.2728648,2009.0,30.0,34000.0,False,decent,30.0,220500.0
+t5-data-centers-t5atlanta-3,T5 Data Centers - T5@Atlanta 3,Georgia,Lithia Springs,33.763433,-84.60498,2025.0,66.0,476000.0,False,big_ai,66.0,465696.0
+1650-union-hill-road,1650 Union Hill Road,Georgia,Alpharetta,34.09479503611276,-84.23574006692277,1999.0,8.1,165000.0,False,small,8.1,56700.0
+core-scientific,Core Scientific Dalton,Georgia,"Dalton, GA",34.7131193,-84.9514028,2018.0,195.0,,False,crypto,195.0,1622790.0
+caps,CAPS Shelton,Connecticut,Shelton,41.2780663,-73.1249517,1995.0,,,False,small,2.0,14000.0
+cvm,CVM,Connecticut,Branford,41.3080872,-72.7517544,2010.0,0.12,540.0,False,small,0.12,840.0
+sparrow-technology,"Sparrow Technology Solutions, LLC.",Alabama,Montgomery,32.3381325,-86.2585214,2018.0,,,False,small,2.0,14000.0
+core-scientific-auburn,Core Scientific Auburn,Alabama,Auburn,32.60092892087178,-85.512853246259,2024.0,4.0,40000.0,False,crypto,4.0,33288.0
+simple-helix-data-center,Simple Helix Data Center,Alabama,Huntsville,34.7454409,-86.691892,2007.0,4.5,,False,small,4.5,31500.0
+assurance-technology,"Assurance Technology, LLp",Alabama,Mobile,30.6747733,-88.118332,1999.0,,,False,small,2.0,14000.0
+bigbytecc,bigbyte.cc Corp.,New Mexico,Albuquerque,35.084715,-106.648772,2001.0,,,False,small,2.0,14000.0
+the-brownrice-datacenter,The Brownrice Datacenter,New Mexico,Taos,36.3876872,-105.5880244,2013.0,,1000.0,False,small,2.0,14000.0
+edgexdc-okc,ValorC3 Oklahoma City Data Center,Oklahoma,Oklahoma City,35.42515106852714,-97.6000587918491,2010.0,1.25,10000.0,False,small,1.25,8750.0
+oklahoma-city-data-center,TierPoint Oklahoma City #1,Oklahoma,Oklahoma City,35.5143079,-97.5968398,2003.0,,14000.0,False,small,2.0,14000.0
+scale-datacenter,Cerebras Oklahoma,Oklahoma,Oklahoma City,35.5353195,-97.5217825,2013.0,10.0,,False,decent,10.0,73500.0
+perimeter-technology-data-center,TierPoint Oklahoma City #2,Oklahoma,Oklahoma City,35.5135865,-97.5950876,2008.0,,34000.0,False,small,2.0,14000.0
+rack59,RACK59,Oklahoma,Oklahoma City,35.46727620284629,-97.64960646629332,2009.0,,15000.0,False,small,2.0,14000.0
+core-scientific-muskogee,Core Scientific Muskogee,Oklahoma,Muskogee,35.78535393717777,-95.30150992141871,2026.0,70.0,,False,crypto,70.0,582540.0
+tulsa-data-center,TierPoint Tulsa - Archer,Oklahoma,Tulsa,36.1585889,-95.9886351,2005.0,,4000.0,False,small,2.0,14000.0
+core-data-center,CORE Data Center,Oklahoma,Vinita,36.6257567,-95.0925005,2014.0,,5000.0,False,small,2.0,14000.0
+philcade-data-center,Philcade Data Center,Oklahoma,Tulsa,36.151702,-95.988297,1992.0,,67000.0,False,small,2.0,14000.0
+ocosa-data-center1,OCOSA Data Center,Oklahoma,Tulsa,36.15326283155181,-95.98921136228346,2004.0,,1000.0,False,small,2.0,14000.0
+cherokee-data-center,Cherokee Data Center,Oklahoma,Tulsa,36.26252432303883,-95.9100903661328,2001.0,,430000.0,False,small,2.0,14000.0
+tierpoint-tulsa-state-farm,TierPoint Tulsa - State Farm,Oklahoma,Tulsa,36.0964147,-95.8400375,2018.0,,16000.0,False,small,2.0,14000.0
+colohouse-colorado-springs,ColoHouse Colorado Springs,Colorado,Colorado Springs,38.8355484,-104.8236416,1997.0,,,False,decent,15.0,110250.0
+springs-hosting,Springs Hosting Data Center,Colorado,Colorado Springs,38.8150081,-104.7695164,2008.0,,,False,small,2.0,14000.0
+iron-mountain-den-1,Iron Mountain Data Centers DEN-1,Colorado,Denver,39.777478,-104.96832,2000.0,12.3,180000.0,False,decent,12.3,90405.0
+oneneck-it-solutions,US Signal Denver CO01,Colorado,Englewood,39.5590337,-104.8334949,2015.0,1.6,8400.0,False,small,1.6,11200.0
+databank-den5-centennial-ii,DataBank DEN5 - Centennial II,Colorado,Centennial,39.5901643,-104.8470028,2024.0,16.0,56000.0,False,decent,16.0,117600.0
+1500-champa,1500 Champa,Colorado,Denver,39.7459482,-104.9944892,2001.0,3.0,13500.0,False,small,3.0,21000.0
+rockynetcom,Massive Networks - Louisville,Colorado,Louisville,39.9654525,-105.1242975,2007.0,,4800.0,False,small,2.0,14000.0
+colorado-colo,ColoradoColo Darwin Data Center,Colorado,Lakewood,39.7281498,-105.1226064,2008.0,2.0,5000.0,False,small,2.0,14000.0
+thornton-colorado-data-center,Thornton Colorado Data Center,Colorado,Thornton,39.9167466,-104.9864207,1983.0,,291421.0,False,decent,15.0,110250.0
+telesystem-i,Telesystem DC-1,Ohio,Toledo,41.6243705,-83.6560611,2012.0,,,False,small,2.0,14000.0
+racksquared,Racksquared Spring Street Datacenter,Ohio,Columbus,39.966919,-82.9926132,2012.0,,4000.0,False,small,2.0,14000.0
+racsksquared-value-way,Racksquared Value Way Datacenter,Ohio,Columbus,40.0454379,-82.9523431,2012.0,,,False,small,2.0,14000.0
+ceranet-dc1,CeraNet DC1,Ohio,Columbus,39.994518,-82.854439,1996.0,,2500.0,False,small,2.0,14000.0
+edged-columbus,Edged Columbus,Ohio,New Albany,40.106074,-82.815775,2025.0,24.0,,False,decent,24.0,176400.0
+edgeconnex-new-albany-phase-i,EdgeConneX New Albany - Phase I,Ohio,Johnstown,40.08788796321357,-82.72246231067332,2026.0,,524525.0,False,small,2.0,14000.0
+datacenter-101-llc,Crown Castle Columbus (OH1),Ohio,Columbus,39.9589111,-82.9969172,2007.0,,7400.0,False,small,2.0,14000.0
+new-albany-dc,Compugen New Albany Data Center,Ohio,New Albany,40.1064892,-82.8052757,2014.0,2.0,15000.0,False,small,2.0,14000.0
+cmh-1,eNET CMH-1,Ohio,Columbus,40.0830527,-82.9384729,1995.0,,,False,small,2.0,14000.0
+weconnect-community-data-center,WeConnect Community Data Center,Ohio,Westerville,40.1238326,-82.945611,2012.0,3.0,8000.0,False,small,3.0,21000.0
+ceranet-dc2,CeraNet DC2,Ohio,Dublin,40.0988366,-83.1143412,2011.0,2.0,,False,small,2.0,14000.0
+metro-data-center,"DartPoints Dublin, OH - CMH01",Ohio,Dublin,40.09316,-83.13382,2011.0,3.0,6000.0,False,small,3.0,21000.0
+ceranet-dc3,CeraNet DC3,Ohio,Westerville,40.0829991,-82.9002489,2010.0,,2500.0,False,small,2.0,14000.0
+brightspeed-martinsville,Brightspeed Mansfield,Ohio,Mansfield,40.7578254,-82.5176149,1965.0,,51380.0,False,small,2.0,14000.0
+the-karcher-group,TKG Data Center,Ohio,North Canton,40.9101759,-81.4315421,2006.0,,,False,small,2.0,14000.0
+involta-youngstown,Ark Data Centers Youngstown,Ohio,Youngstown,41.1183038,-80.6570664,2000.0,,4000.0,False,small,2.0,14000.0
+securedata-365,Ark Data Centers Canton,Ohio,Canton,40.8325814,-81.4319719,2009.0,1.5,5600.0,False,small,1.5,10500.0
+bitdeer-massillon,Bitdeer Massillon,Ohio,Massillon,40.7708731322956,-81.53972307975927,2026.0,221.0,,False,crypto,221.0,1839162.0
+datayard,DataYard,Ohio,Dayton,39.7600917,-84.1949337,2012.0,,,False,small,2.0,14000.0
+profitabilitynet,"DartPoints Cincinnati, OH - CVG01",Ohio,Cincinnati,39.098141,-84.517673,2010.0,1.6,13408.0,False,small,1.6,11200.0
+centergrid-hamilton,CenterGrid - Hamilton,Ohio,Hamilton,39.3848676,-84.566587,2013.0,2.0,7500.0,False,small,2.0,14000.0
+lighthouse-clt01,LightHouse CLT01,Ohio,Hamilton,39.3833235,-84.5580919,2026.0,288.0,160000.0,False,big_ai,288.0,2032128.0
+brightspeed-lima,Brightspeed Lima,Ohio,Lima,40.7391014,-84.1073516,1920.0,,71060.0,False,small,2.0,14000.0
+5cdc-columbus-cmh01,5CDC Columbus - CMH01,Ohio,Springfield,39.912807,-83.72371799999999,2005.0,900.0,214078.0,False,big_ai,900.0,6350400.0
+brightspeed-warren,Brightspeed Warren,Ohio,Warren,41.2345062,-80.8184825,1928.0,,91160.0,False,small,2.0,14000.0
+involta-independence,Ark Data Centers Independence,Ohio,Independence,41.3607758,-81.631047,2017.0,2.5,10000.0,False,small,2.5,17500.0
+bay-pointe,Bay Pointe Data Center,Ohio,Richfield,41.2084777,-81.6388251,2012.0,,,False,small,2.0,14000.0
+sterling-building,Sterling Telecom Office Building,Ohio,Cleveland,41.5012033,-81.6835074,1973.0,,,False,small,2.0,14000.0
+fidelity-voice-and-data,Fusion Connect - Cleveland,Ohio,Cleveland,41.5016139,-81.680445,2008.0,1.0,6000.0,False,small,1.0,7000.0
+involta-akron-2,Ark Data Centers Akron 2,Ohio,Akron,41.0574718,-81.5215892,2016.0,1.0,10000.0,False,small,1.0,7000.0
+medina387,LightSpeed Data Center,Ohio,Medina,41.1383532,-81.7005967,2016.0,1.0,1400.0,False,small,1.0,7000.0
+involta-akron,Ark Data Centers Akron 1,Ohio,Akron,41.0573435,-81.5223617,2011.0,1.0,10000.0,False,small,1.0,7000.0
+brightspeed-lebanon,Brightspeed Lebanon,Ohio,Lebanon,39.4347258,-84.20626390000001,1973.0,,32520.0,False,small,2.0,14000.0
+xmission-data-center,XMission Data Center,Utah,Salt Lake City,40.7609528,-111.8893002,2001.0,,10000.0,False,small,2.0,14000.0
+aligned-slc-02,Aligned SLC-02,Utah,West Jordan,40.58593218248742,-111.9697279641991,2021.0,48.0,200000.0,False,decent,48.0,352800.0
+novva-flagship,Novva Salt Lake City,Utah,West Jordan,40.5725846,-112.0459884,2021.0,200.0,330000.0,False,big_ai,200.0,1411200.0
+syringa-networks-west-valley,Syringa Networks West Valley,Utah,West Valley City,40.7232557,-111.9317079,1986.0,,,False,small,2.0,14000.0
+tonaquint-stg,ValorC3 Saint George Data Center,Utah,St George,37.0815164,-113.6071645,2008.0,4.0,18000.0,False,small,4.0,28000.0
+11000-mccornick-rd,11000 McCornick Rd,Utah,Delta,39.1992256,-112.3730338,2026.0,,,False,small,2.0,14000.0
+fibernet-corporation,Fibernet Utah Data Center,Utah,Orem,40.2760746,-111.6753697,2002.0,6.0,10000.0,False,small,6.0,42000.0
+data-cave,"DartPoints Columbus, IN - CLU01",Indiana,Columbus,39.17949,-85.896024,2018.0,9.771,34000.0,False,small,9.771,68397.0
+data-realty,Aunalytics South Bend Data Center,Indiana,South Bend,41.659842,-86.2581782,2012.0,10.0,,False,decent,10.0,73500.0
+eastgate-in,Lifeline Data Centers Eastgate,Indiana,Indianapolis,39.775998,-86.04275,2009.0,,450000.0,False,small,2.0,14000.0
+lightbound-650,DataBank IND2 - Downtown Indianapolis,Indiana,Indianapolis,39.7601501,-86.1704701,2005.0,3.75,31080.0,False,small,3.75,26250.0
+dx-1,Digital Crossroad DX-1,Indiana,Hammond,41.7074123,-87.5201463,2020.0,20.0,72000.0,False,decent,20.0,147000.0
+lifeline-data-centers-fort-wayne,Lifeline Data Centers Fort Wayne,Indiana,Fort Wayne,41.0140283,-85.1099756,2020.0,,84000.0,False,small,2.0,14000.0
+brightspeed-russellville,Brightspeed Russellville,Arkansas,Russellville,35.2774524,-93.1371524,2000.0,,44650.0,False,small,2.0,14000.0
+ritter-data-technology-center,Ritter Communications Data Technology Center,Arkansas,Jonesboro,35.815375,-90.68931,2020.0,0.75,,False,small,0.75,5250.0
+713-nebraska-st,713 Nebraska St,Iowa,Sioux City,42.4981043,-96.4039508,2019.0,,,False,small,2.0,14000.0
+infobunker,InfoBunker,Iowa,Des Moines,41.586182,-93.659333,2005.0,10.0,38000.0,False,decent,10.0,73500.0
+team-companies-des-moines,US Signal Des Moines IA01,Iowa,Des Moines,41.6166126,-93.8535056,2009.0,7.6,,False,small,7.6,53200.0
+edgebcc,LightEdge - Altoona I,Iowa,Altoona,41.6668,-93.455687,2006.0,,,False,small,2.0,14000.0
+involta-marion,Ark Data Centers Marion,Iowa,Marion,42.05294137401164,-91.55424356460573,2008.0,,10000.0,False,small,2.0,14000.0
+enseva-hiawatha,Enseva Hiawatha Datacenter,Iowa,Hiawatha,42.0563033,-91.6795893,2012.0,4.0,12000.0,False,small,4.0,28000.0
+infrastructure-technology-solutions,ITS Data Center,Iowa,Monticello,42.2530183,-91.1609634,2007.0,,,False,small,2.0,14000.0
+us-secure-hosting-center,US Secure Hosting Center,Iowa,Monticello,42.2840281,-91.0921393,2002.0,,,False,small,2.0,14000.0
+glcc,Great Lakes Colocation Data Center,Iowa,Lake Park,43.4297871,-95.2983882,2011.0,1.0,3000.0,False,small,1.0,7000.0
+albion-data-center,Albion Data Center,New York,Albion,43.24279811626396,-78.18851201414238,1975.0,1.0,130000.0,False,small,1.0,7000.0
+1-ramland-facility,1 Ramland,New York,Orangeburg,41.034512,-73.9758403,2017.0,12.0,100000.0,False,decent,12.0,88200.0
+crown-castle-ny1,Crown Castle New York (NY1),New York,New York City,40.7410429,-74.0024514,2001.0,1.0,16700.0,False,small,1.0,7000.0
+att-811-10th-ave,AT&T New York,New York,New York,40.767148,-73.9908844,2000.0,,43900.0,False,small,2.0,14000.0
+atlantic-metro-lga4-idc,365 Data Centers - New York 3,New York,New York,40.724832,-74.00609,2010.0,,,False,small,2.0,14000.0
+webair-ny1,Opti9 NY1,New York,Garden City,40.722807,-73.6315983,2002.0,4.0,25000.0,False,small,4.0,28000.0
+nyrk06,Delimiter Commack Data Center,New York,Commack,40.8225911,-73.2916469,2018.0,0.5,20000.0,False,small,0.5,3500.0
+databank-lga3-orangeburg,DataBank LGA3 - Orangeburg,New York,Orangeburg,41.0401325,-73.98989929999999,2025.0,20.0,110000.0,False,decent,20.0,147000.0
+new-york-internet-dc1,NYI - New York,New York,New York,40.70855583007363,-74.00715306401253,2004.0,,,False,small,2.0,14000.0
+325-hudson,325 Hudson,New York,New York,40.7267165,-74.0075896,2004.0,,,False,small,2.0,14000.0
+atlantic-metro-communications-lga6,365 Data Centers - New York 4,New York,New York,40.7199811,-74.0046379,2008.0,,,False,small,2.0,14000.0
+datagryd,Hudson InterXchange,New York,New York,40.717729,-74.0083059,2011.0,15.0,173000.0,False,decent,15.0,110250.0
+globecomm-ny,Speedcast NY,New York,Hauppauge,40.815055,-73.2371757,1997.0,2.0,6000.0,False,small,2.0,14000.0
+atlantic-metro-communications,365 Data Centers - New York 2,New York,New York,40.726718,-74.007398,2002.0,,,False,small,2.0,14000.0
+colo-oldmain,colo@OldMain,New York,Potsdam,44.6679871,-74.9801447,2014.0,,,False,decent,15.0,110250.0
+advance2000,Advance2000 Williamsville Data Center,New York,Williamsville,42.9502219,-78.740705,2008.0,,1800.0,False,small,2.0,14000.0
+elm-dc,Elm Data Center,New York,Buffalo,42.8873863,-78.8682528,2010.0,1.0,4000.0,False,small,1.0,7000.0
+blockfusion-niagara-falls,Blockfusion Niagara Falls,New York,Niagara Falls,43.0831175,-79.0030939,2019.0,100.0,,False,big_ai,100.0,705600.0
+switchdata-buffalo,H5 Data Centers Buffalo III,New York,Buffalo,42.884419,-78.875427,2005.0,,19000.0,False,small,2.0,14000.0
+digipowerx-buffalo,DigiPowerX Buffalo,New York,Buffalo,42.92012,-78.81941,2021.0,42.0,,False,decent,42.0,308700.0
+pci-nuffalo,PCI Buffalo,New York,Buffalo,42.8797638,-78.8764319,1997.0,,4500.0,False,small,2.0,14000.0
+colocrossing,ColoCrossing BUF1,New York,Buffalo,42.892919,-78.875081,2014.0,1.44,7000.0,False,small,1.44,10080.0
+i-evolve-data-center,I-Evolve Data Center,New York,Buffalo,43.018074,-78.7845806,2008.0,,8600.0,False,small,2.0,14000.0
+main-place1,Shatter I.T. Buffalo,New York,Buffalo,42.884419,-78.875427,2011.0,,3600.0,False,small,2.0,14000.0
+victory-technology-center,Victory Technology Center,New York,Buffalo,42.8907569,-78.868183,2010.0,5.0,,False,small,5.0,35000.0
+digipowerx-north-tonawanda,DigiPowerX North Tonawanda,New York,North Tonawanda,43.04865590763131,-78.85203346607373,2021.0,120.0,,False,big_ai,120.0,846720.0
+dotblock-com,DotBlock.Com,New York,Clifton Park,42.8494944,-73.7568807,1999.0,2.0,3000.0,False,small,2.0,14000.0
+tierpoint-hw2,TierPoint Hawthorne 2 - New York,New York,Hawthorne,41.0864607,-73.8173181,2007.0,,13500.0,False,small,2.0,14000.0
+rcn-metro-360-hamilton,Crown Castle New York (NY2),New York,White Plains,41.0347687,-73.7669662,2000.0,,8200.0,False,small,2.0,14000.0
+xand-corporation,TierPoint Hawthorne - New York,New York,Hawthorne,41.088439,-73.8152948,2001.0,,28000.0,False,small,2.0,14000.0
+mindshift-commack,365 Data Centers - Commack,New York,Commack,40.8225574,-73.2919119,2016.0,6.0,10000.0,False,small,6.0,42000.0
+continuity-centers,Continuity Centers Woodbury,New York,Woodbury,40.80256,-73.4799494,1999.0,,,False,small,2.0,14000.0
+pointvoip-ny3,PointVoIP NY3,New York,Ronkonkoma,40.787969,-73.1266802,2021.0,,,False,small,2.0,14000.0
+vastnet-melville,Vastnet - Melville,New York,Melvile,40.8057779,-73.410093,1995.0,,,False,small,2.0,14000.0
+stafford-assoicates,Stafford Associates Data Center,New York,Setauket,40.930513,-73.1137812,2009.0,2.0,5000.0,False,small,2.0,14000.0
+gotham-bus,Gotham Bus Datacenter,New York,Mt. Sinai,40.9355592,-73.0207145,2000.0,,,False,small,2.0,14000.0
+manchester-facility,FirstLight Manchester NH,New Hampshire,Manchester,42.9721839,-71.470491,2000.0,2.0,15000.0,False,small,2.0,14000.0
+lightower-providence,Crown Castle Providence (RI1),Rhode Island,Providence,41.8287586,-71.4192579,2000.0,,5184.0,False,small,2.0,14000.0
+meganet-foundry,MegaNet Rhode Island Datacenter,Rhode Island,Providence,41.829229,-71.421059,2000.0,,,False,small,2.0,14000.0
+win-eau-claire-data-center,WIN - Eau Claire Data Center,Wisconsin,Eau Claire,44.8158887,-91.4954639,2007.0,1.0,4000.0,False,small,1.0,7000.0
+ark-data-centers-green-bay,Ark Data Centers Green Bay,Wisconsin,Harrison,44.2046514,-88.3447611,2024.0,20.0,5000.0,False,decent,20.0,147000.0
+win-green-bay-dc,WIN - Green Bay Data Center,Wisconsin,Green Bay,44.51529,-88.01125,2016.0,0.25,2500.0,False,small,0.25,1750.0
+dane-county-data-exchange,Dane County Data Exchange I,Wisconsin,Madison,43.0491799,-89.2972543,2015.0,18.0,28000.0,False,decent,18.0,132300.0
+team-companies-madison-data-center,US Signal Madison WI02,Wisconsin,Madison,42.9947196,-89.4232738,2008.0,6.0,24000.0,False,small,6.0,42000.0
+us-signal-madison,US Signal Madison WI01,Wisconsin,Madison,43.0731888,-89.3871697,1972.0,0.15,2500.0,False,small,0.15,1050.0
+offsite,OFFSITE,Wisconsin,Kenosha,42.6038114,-87.8222072,2001.0,5.0,30000.0,False,small,5.0,35000.0
+iscorp-north-mqn,ISCorp North MQN,Wisconsin,Mequon,43.2054428,-87.9251573,2004.0,,,False,small,2.0,14000.0
+i-site-data-center,TSR Solutions Data Center,Wisconsin,Milwaukee,43.039034,-87.906925,1996.0,,5200.0,False,small,2.0,14000.0
+data-holdings,Data Holdings Milwaukee,Wisconsin,Milwaukee,43.0443788,-87.9476045,2013.0,8.6,25000.0,False,small,8.6,60200.0
+burnham-data-center,TierPoint Milwaukee,Wisconsin,West Milwaukee,43.0095347,-87.9610631,2004.0,,8000.0,False,small,2.0,14000.0
+dpo-wisconsin-rapids,DPO Wisconsin Rapids,Wisconsin,Wisconsin Rapids,44.40565120000001,-89.82734359999999,2026.0,20.0,,False,decent,20.0,147000.0
+nexcess-net-dc1,Liquid Web Dearborn,Michigan,Dearborn,42.2856211,-83.233634,2006.0,0.6,3200.0,False,small,0.6,4200.0
+123net-inc-dc1,123Net Southfield DC1,Michigan,Southfield,42.4716648,-83.2380381,2015.0,20.0,80000.0,False,decent,20.0,147000.0
+us-signal-southfield,US Signal Detroit MI04,Michigan,Southfield,42.4472941,-83.2570133,1972.0,0.25,9500.0,False,small,0.25,1750.0
+sflfmi72w00,TelNet Worldwide - SFLFMI72W00,Michigan,Southfield,42.448537,-83.2612259,2014.0,,3000.0,False,small,2.0,14000.0
+waveform-troy-datacenter,ManagedWay Data Center #1,Michigan,Troy,42.537172,-83.0998681,2005.0,1.0,,False,small,1.0,7000.0
+waveform-dc-2,ManagedWay Data Center #2,Michigan,Troy,42.5406275,-83.0984188,2012.0,2.0,,False,small,2.0,14000.0
+internet-123,123Net Southfield NW DC2,Michigan,Southfield,42.4670333,-83.2349719,2006.0,1.0,8000.0,False,small,1.0,7000.0
+123net-inc-dc3,123Net Southfield W DC3,Michigan,Southfield,42.4668463,-83.2346439,2011.0,1.5,8000.0,False,small,1.5,10500.0
+solstice-data-allen-park,Solstice Data Allen Park,Michigan,Allen Park,42.2681105805985,-83.20816955099646,2026.0,26.0,52898.0,False,decent,26.0,191100.0
+eliterax,Liquid Web Southfield,Michigan,Southfield,42.446356,-83.256776,2014.0,3.0,14000.0,False,small,3.0,21000.0
+metro-detroit-1-data-center,OTAVA Metro Detroit,Michigan,Westland,42.331051,-83.419518,2014.0,1.2,18000.0,False,small,1.2,8400.0
+clear-rate-troy-datacenter,Clear Rate Troy Datacenter,Michigan,Troy,42.56279,-83.1799,2019.0,,,False,small,2.0,14000.0
+us-signal-detroit-metro,US Signal Detroit MI03,Michigan,Belleville,42.2353124,-83.4441197,2020.0,4.5,14000.0,False,small,4.5,31500.0
+liberty-center-one,Liberty Center One Royal Oak,Michigan,Royal Oak,42.5335168,-83.1774788,2008.0,,7800.0,False,small,2.0,14000.0
+telesystem-data-center-2,Telesystem DC-2,Michigan,Monroe,41.9369244,-83.4041104,1995.0,,3600.0,False,small,2.0,14000.0
+secant-tier-3-dc,Aunalytics Kalamazoo Data Center,Michigan,Kalamazoo,42.2464108,-85.6752039,2014.0,,,False,small,2.0,14000.0
+hyperscale-data-michigan,Hyperscale Data Michigan,Michigan,Dowagiac,41.992413,-86.098981,1972.0,340.0,617000.0,False,big_ai,340.0,2399040.0
+acd-metroix,ACD.net MetroIX,Michigan,Lansing,42.7550645,-84.5571376,2006.0,,40000.0,False,small,2.0,14000.0
+liquid-web-idc2,Liquid Web Lansing DC2,Michigan,Lansing,42.6879726,-84.6429951,2006.0,,,False,small,2.0,14000.0
+onlinetech-exchange-drive,OTAVA Mid-Michigan,Michigan,Flint,42.968757,-83.77964,1986.0,4.0,22500.0,False,small,4.0,28000.0
+onlinetech-avis-drive,OTAVA Ann Arbor,Michigan,Ann Arbor,42.2119944,-83.7410917,2008.0,,7500.0,False,small,2.0,14000.0
+123net-inc-dc4,123Net Grand Rapids DC4,Michigan,Byron Center,42.8253359,-85.672647,2012.0,1.0,3500.0,False,small,1.0,7000.0
+us-signal-barden-ct,US Signal Grand Rapids MI01,Michigan,Kentwood,42.87684861556736,-85.56395351886749,2014.0,2.2,25000.0,False,small,2.2,15400.000000000002
+microsoft-goodyear-2,Microsoft Goodyear (PHX70),Arizona,Goodyear,33.4926119,-112.4384401,2020.0,,,False,big_ai,50.0,352800.0
+nextfort,H5 Data Centers Phoenix,Arizona,Chandler,33.2761127,-111.8848676,2011.0,26.0,180000.0,False,decent,26.0,191100.0
+apple-mesa-data-center,Apple Mesa Data Center,Arizona,Mesa,33.3470151,-111.6040335,2016.0,,,False,big_ai,50.0,352800.0
+iron-mountain-azs-1,Iron Mountain Data Centers AZS-1,Arizona,Scottsdale,33.6444482,-111.8957046,2007.0,5.8,121000.0,False,small,5.8,40600.0
+phoenix-campus,Aligned PHX01,Arizona,Phoenix,33.6588811,-112.1106061,2017.0,180.0,300000.0,False,big_ai,180.0,1270080.0
+cyrusone-phx1,CyrusOne PHX1 - Chandler,Arizona,Chandler,33.2708361,-111.881638,2012.0,9.0,60000.0,False,small,9.0,63000.0
+meta-mesa-building-1,Meta Mesa - Building 1,Arizona,Mesa,33.34731007474267,-111.6333609001364,2025.0,,,False,big_ai,50.0,352800.0
+cyrusone-phx6,CyrusOne PHX6 - Chandler,Arizona,Chandler,33.26753221642161,-111.8825343619918,2017.0,18.0,120000.0,False,decent,18.0,132300.0
+iron-mountain-azp-1,Iron Mountain Data Centers AZP-1,Arizona,Phoenix,33.4544913,-111.9761417,2011.0,41.0,,False,decent,41.0,301350.0
+novva-mesa,Novva Mesa,Arizona,Mesa,33.33908510219398,-111.6393690795214,2026.0,96.0,1300000.0,False,big_ai,96.0,677376.0
+microsoft-goodyear-1,Microsoft GoodyearAirpark (PHX10),Arizona,Goodyear,33.4079525,-112.364793,2019.0,,,False,big_ai,50.0,352800.0
+liquid-web-phoenix,Liquid Web Phoenix,Arizona,Scottsdale,33.540714,-111.9247362,2010.0,,,False,small,2.0,14000.0
+phoenix-nap,RadiusDC Phoenix I DC1,Arizona,Phoenix,33.41613,-112.00933,2010.0,25.0,,False,decent,25.0,183750.0
+oneneck-gilbert,US Signal Phoenix AZ01,Arizona,Gilbert,33.3552874,-111.8268072,1998.0,1.5,6000.0,False,small,1.5,10500.0
+cyrusone-phx3,CyrusOne PHX3 - Chandler,Arizona,Chandler,33.27195516766656,-111.8816614587236,2016.0,9.0,60000.0,False,small,9.0,63000.0
+cyrusone-phx4,CyrusOne PHX4 - Chandler,Arizona,Chandler,33.26873119093797,-111.8824875826938,2017.0,9.0,60000.0,False,small,9.0,63000.0
+2121-s-price,2121 S. Price Road (PHX15),Arizona,Chandler,33.2748503,-111.8869478,2000.0,32.6,249000.0,False,decent,32.6,239610.0
+phoenixnap3,PhoenixNAP West University,Arizona,Tempe,33.4214579,-111.9743414,2010.0,,,False,small,2.0,14000.0
+meta-mesa-building-2,Meta Mesa - Building 2,Arizona,Mesa,33.34725630048721,-111.6316872017901,2025.0,,,False,big_ai,50.0,352800.0
+cyrusone-phx5,CyrusOne PHX5 - Chandler,Arizona,Chandler,33.26969635033058,-111.8815649027929,2018.0,9.0,110000.0,False,small,9.0,63000.0
+cyrusone-phx2,CyrusOne PHX2 - Chandler,Arizona,Chandler,33.27194984165537,-111.8833673436563,2015.0,9.0,60000.0,False,small,9.0,63000.0
+2500-W-Frye-Rd,2500 W Frye Rd,Arizona,Chandler,33.3008813,-111.8863212,2002.0,,150000.0,False,small,2.0,14000.0
+iron-mountain-azp-2,Iron Mountain Data Centers AZP-2,Arizona,Phoenix,33.452056,-111.977266,2019.0,48.0,,False,decent,48.0,352800.0
+involta-tucson,Ark Data Centers Tucson,Arizona,Tucson,32.1723445,-110.9542276,2013.0,2.0,20000.0,False,small,2.0,14000.0
+login-dc2,Login DC2,Arizona,Tucson,32.2449504,-110.9691897,2001.0,1.0,4000.0,False,small,1.0,7000.0
+mdc-nogales,MDC Nogales - NOG1,Arizona,Nogales,31.3348265,-110.943748,2019.0,0.2,,False,small,0.2,1400.0
+sdn-communications-lamesa-data-center,SDN Communications LaMesa Data Center,South Dakota,Sioux Falls,43.60695260861166,-96.80919287742653,2012.0,,100000.0,False,small,2.0,14000.0
+cosentry1,TierPoint Sioux Falls East,South Dakota,Sioux Falls,43.5955224,-96.7171664,2005.0,,12000.0,False,small,2.0,14000.0
+technology-solutions,ArmorRack Data Center,South Carolina,Seneca,34.697807,-82.9432303,2013.0,0.5,1400.0,False,small,0.5,3500.0
+dcblox-gsp1,DC BLOX Greenville,South Carolina,Greenville,36.45663572314526,-111.621094,2021.0,3.0,54000.0,False,small,3.0,21000.0
+immedion,"DartPoints Greenville, SC - GSP01",South Carolina,Greenville,34.8079545,-82.3445036,2007.0,13.3,10500.0,False,decent,13.3,97755.0
+immedion1,"DartPoints Columbia, SC - CAE01",South Carolina,Columbia,33.987031,-81.030436,2010.0,2.0,5000.0,False,small,2.0,14000.0
+elink-mc-datacenter,Elink Datacenter,South Carolina,Johns Island,32.73063151069019,-80.05915939807892,1996.0,,4000.0,False,small,2.0,14000.0
+immedion-palmetto,"DartPoints Charleston, SC - CHS01",South Carolina,North Charleston,32.9664769,-80.1109129,2011.0,1.3,5000.0,False,small,1.3,9100.0
+immedion-greenville,"DartPoints Spartanburg, SC - SPA01",South Carolina,Spartanburg,34.9965805,-82.0348432,2018.0,13.6,7000.0,False,decent,13.6,99960.0
+crown-castle-ma1,Crown Castle Springfield (MA1),Massachusetts,Springfield,42.1100177,-72.5764883,1999.0,,10831.0,False,small,2.0,14000.0
+lightower-worcester,Crown Castle Worcester (MA3),Massachusetts,Worcester,42.2623616,-71.8030857,1999.0,1.0,36000.0,False,small,1.0,7000.0
+lightower-marlborough,Crown Castle Marlborough (MA2),Massachusetts,Marlborough,42.314471,-71.5800491,1999.0,4.0,50000.0,False,small,4.0,28000.0
+digital-realty-105-cabot,105 Cabot Street (BOS16),Massachusetts,Needham,42.3028621,-71.2210018,2013.0,2.2,18300.0,False,small,2.2,15400.000000000002
+128-first-avenue,128 First Avenue (BOS14),Massachusetts,Needham,42.3013161,-71.2190293,2005.0,11.6,280000.0,False,decent,11.6,85260.0
+hosted-solutions-boston,TierPoint Boston-Charlestown,Massachusetts,Charlestown,42.3809868,-71.0727119,1999.0,,24000.0,False,small,2.0,14000.0
+iron-mountain-bos-1,Iron Mountain Data Centers BOS-1,Massachusetts,Northborough,42.3376904,-71.6394718,2017.0,3.6,,False,small,3.6,25200.0
+55-middlesex,55 Middlesex Turnpike,Massachusetts,Bedford,42.5087368,-71.2339647,1971.0,5.1,49000.0,False,small,5.1,35700.0
+fitchburg-166-boulder,Fitchburg Fiber 166 Boulder,Massachusetts,Fitchburg,42.58219197767967,-71.80123688217682,2020.0,,1200.0,False,small,2.0,14000.0
+parsec-data-center,Parsec Data Center,Montana,Billings,45.7426697,-108.6031326,2009.0,2.0,10000.0,False,small,2.0,14000.0
+mwtn-noc-of-the-rocckies,Data Center Of The Rockies,Wyoming,Casper,42.8601032,-106.3355938,2025.0,1.5,3976.0,False,small,1.5,10500.0
+t5-minneapolis,T5 Data Centers - T5@Minneapolis,Minnesota,Minneapolis,44.9715259,-93.2703388,2015.0,30.0,100000.0,False,decent,30.0,220500.0
+irongate-downtown-minneapolis,IronGate Downtown Minneapolis,Minnesota,Minneapolis,44.9851559,-93.2680464,2026.0,,,False,small,2.0,14000.0
+visi,US Signal Minneapolis MN01,Minnesota,Eden Prairie,44.8772254,-93.4073773,2010.0,5.4,18000.0,False,small,5.4,37800.0
+bhi-noc,Trustwave NOC,Minnesota,Eden Prairie,44.865168,-93.4669018,2004.0,,,False,small,2.0,14000.0
+databank-se-minneapolis,DataBank MSP2 - East Twin Cities,Minnesota,Eagan,44.838426,-93.1458016,2014.0,5.0,48860.0,False,small,5.0,35000.0
+twin-cities-east,IronGate Twin Cities East,Minnesota,Woodbury,44.94631,-92.9526548,2025.0,66.0,60000.0,False,big_ai,66.0,465696.0
+twin-cities-northwest,IronGate Twin Cities West,Minnesota,St. Paul,44.9460256,-92.9564078,2025.0,34.0,25000.0,False,decent,34.0,249900.0
+250-marquette,250 Marquette Avenue,Minnesota,Minneapolis,44.9808041,-93.2675631,1973.0,,,False,small,2.0,14000.0
+databank-minneapolis,DataBank MSP1 - West Twin Cities,Minnesota,Edina,44.8626944,-93.3305488,2001.0,1.35,26240.0,False,small,1.35,9450.0
+511-building,511 Building,Minnesota,Minneapolis,44.9714274,-93.2545911,1982.0,,273000.0,False,small,2.0,14000.0
+databank-msp3-brooklyn-park,DataBank MSP3 - Brooklyn Park,Minnesota,Brooklyn Park,45.1437611,-93.3871665,2021.0,9.0,82231.0,False,small,9.0,63000.0
+involta-duluth,Ark Data Centers Duluth 1,Minnesota,Duluth,46.8274673,-92.1304065,2012.0,0.3,3200.0,False,small,0.3,2100.0
+involta-duluth2,Ark Data Centers Duluth 2,Minnesota,Duluth,46.7955709,-92.0962705,2012.0,1.0,10000.0,False,small,1.0,7000.0
+aaim-minnesota-1,AAIM Minnesota 1,Minnesota,Blue Earth,43.65785978014264,-94.09572178574292,2025.0,15.0,10000.0,False,decent,15.0,110250.0
+tierpoint-florida,TierPoint Jacksonville,Florida,Jacksonville,30.2164226,-81.5820341,1982.0,,17000.0,False,small,2.0,14000.0
+scalematrix-jacksonville,ScaleMatrix Jacksonville,Florida,Jacksonville,30.217209,-81.581937,1998.0,5.0,,False,small,5.0,35000.0
+csx-data-center,CSX Data Center,Florida,Jacksonville,30.2613317,-81.601206,1990.0,6.0,,False,small,6.0,42000.0
+3ex-hosting-data-center-boca-raton,3EX Hosting Data Center – Boca Raton,Florida,Boca Raton,26.4075638,-80.0977968,2010.0,35.0,15000.0,False,decent,35.0,257250.0
+volico-2,Volico Fort Lauderdale,Florida,Pompano,26.290414,-80.133934,2011.0,2.0,140000.0,False,small,2.0,14000.0
+cloud-south,Cloud South,Florida,West Palm Beach,26.6836379,-80.0554949,2003.0,1.0,,False,small,1.0,7000.0
+signal-hill-telecom,Signal Hill Telecom Center,Florida,Orlando,28.6175537,-81.3933887,2000.0,13.0,115000.0,False,decent,13.0,95550.0
+200-avenue-b-nw,Thrive US - Winter Haven,Florida,Winter Haven,28.023895,-81.7292955,2016.0,2.0,,False,small,2.0,14000.0
+hostdime,HostDime Orlando,Florida,Orlando,28.6185131,-81.3937966,2003.0,,20000.0,False,small,2.0,14000.0
+coresite-or1,CoreSite Orlando (OR1),Florida,Orlando,28.4271365270483,-81.42006041433615,1984.0,7.0,130000.0,False,small,7.0,49000.0
+t-mobile-everglades-mso,T-Mobile Everglades MSO,Florida,Sunrise,26.184976,-80.28691649999999,2018.0,,35000.0,False,small,2.0,14000.0
+datatech-hosting,Datatech Hosting Tampa,Florida,Tampa,28.019224,-82.5297779,2000.0,,5000.0,False,small,2.0,14000.0
+hostway-tampa-franklin,Data Canopy - Tampa Franklin,Florida,Tampa,27.9495027,-82.4583924,2004.0,,,False,small,2.0,14000.0
+e-solutions-corporation,E Solutions Data Center,Florida,Tampa,27.9473436,-82.4587643,1997.0,3.0,10000.0,False,small,3.0,21000.0
+park-tower,Park Tower,Florida,Tampa,27.9476751,-82.459371,1973.0,,,False,small,2.0,14000.0
+digital-cloud-vault,Digital Cloud Vault,Florida,Naples,26.2458867,-81.801808,2001.0,,500.0,False,small,2.0,14000.0
+terracom-direct,Satcom Direct Data Center,Florida,Melbourne,28.2591624,-80.6948578,2013.0,,20000.0,False,small,2.0,14000.0
+mia2,Raeden MIA2,Florida,Miami,25.7732153,-80.1899214,2006.0,3.0,32000.0,False,small,3.0,21000.0
+2300nw-89th-pl,2300 NW 89th Pl,Florida,Miami,25.795032,-80.342568,1984.0,,64100.0,False,small,2.0,14000.0
+iron-mountain-mia-1,Iron Mountain Data Centers MIA-1,Florida,Miami,25.8845875,-80.2472068,2026.0,16.0,,False,decent,16.0,117600.0
+net-data,Net Data,Florida,Miami,25.9243762,-80.217407,2011.0,,,False,small,2.0,14000.0
+colohouse,ColoHouse Miami,Florida,Miami,25.7758108,-80.1929487,2009.0,,,False,decent,15.0,110250.0
+sollensys-palm-bay,Sollensys Palm Bay,Florida,Palm Bay,27.9833905,-80.629643,1995.0,,36810.0,False,small,2.0,14000.0
+energynet-data-center,EnergyNet Data Center,Kentucky,Hopkinsville,36.8495698,-87.4690246,2008.0,,,False,small,2.0,14000.0
+subtac,KUSI Data Center,Kentucky,Wilmore,37.8266306,-84.7017367,2015.0,,2300.0,False,small,2.0,14000.0
+gearheart-communications,Gearheart Communications,Kentucky,Lexington,38.042286,-84.4672719,2001.0,,,False,small,2.0,14000.0
+lost-river-data-center,Lost River Data Center,Kentucky,Bowling Green,36.962312,-86.47093919999999,2012.0,,,False,small,2.0,14000.0
+louisville-enterprise-data-center,Louisville Enterprise Data Center,Kentucky,Louisville,38.2120095,-85.5197907,2011.0,1.0,20000.0,False,small,1.0,7000.0
+simpsonville-enterprise-data-center,Simpsonville Enterprise Data Center,Kentucky,Simpsonville,38.2189073,-85.33787919999999,2011.0,1.0,20000.0,False,small,1.0,7000.0
+iglou-colocation,IgLou Data Center,Kentucky,Louisville,38.178387,-85.7002616,2001.0,,,False,small,2.0,14000.0
+core-scientific-calvert-city,Core Scientific Calvert City,Kentucky,Calvert City,37.05044666481538,-88.39390071822639,2019.0,150.0,,False,crypto,150.0,1248300.0
+dartpoints-baton-rouge,"DartPoints Baton Rouge, LA 2 - BTR02",Louisiana,Baton Rouge,30.4522872,-91.1155706,2014.0,6.0,7300.0,False,small,6.0,42000.0
+dartpoints-baton-rouge-1,"DartPoints Baton Rouge, LA 1 - BTR01",Louisiana,Baton Rouge,30.4537793,-91.1159194,2000.0,2.5,34000.0,False,small,2.5,17500.0
+nasplex,Lockstep Technology Group Data Center,Louisiana,Baton Rouge,30.387342,-91.092453,2007.0,10.0,30000.0,False,decent,10.0,73500.0
+dartpoints-shreveport,"DartPoints Shreveport, LA - SHV01",Louisiana,Shreveport,32.510911,-93.7500758,2016.0,2.2,7300.0,False,small,2.2,15400.000000000002
+rockville-datacenter,Atlantech Rockville Datacenter,Maryland,Rockville,39.0643077,-77.1600211,2012.0,,10000.0,False,small,2.0,14000.0
+one-market,AiNET One Market Center,Maryland,Baltimore,39.2919659,-76.6203816,2014.0,80.0,150000.0,False,big_ai,80.0,564480.0
+ainet-cybernap,AiNET CyberNAP,Maryland,Glen Burnie,39.1386697,-76.6060397,2012.0,80.0,300000.0,False,big_ai,80.0,564480.0
+tierpoint-baltimore,TierPoint Baltimore - BWI,Maryland,Linthicum Heights,39.2134365,-76.6828547,2018.0,,14000.0,False,small,2.0,14000.0
+baltimore-technology-park,TierPoint Baltimore - BAL,Maryland,Baltimore,39.2753703,-76.6255517,2005.0,,14000.0,False,small,2.0,14000.0
+atlantech-online,Atlantech Silver Spring Datacenter,Maryland,Silver Spring,38.9938559,-77.0276946,1998.0,,8000.0,False,small,2.0,14000.0
+data-foundry-the-data-ranch,Data Foundry - The Data Ranch,Texas,Austin,30.1993765,-97.7135692,2011.0,60.0,295000.0,False,big_ai,60.0,423360.0
+data-foundry-texas-2,Data Foundry - Texas 2,Texas,Austin,30.1995831,-97.7130732,2018.0,36.0,165000.0,False,decent,36.0,264600.0
+bitdeer-rockdale-texas,Bitdeer Texas,Texas,Rockdale,30.56611915480493,-97.07123896608356,2019.0,563.0,,False,crypto,563.0,4685286.0
+core-scientific-austin,Core Scientific Austin,Texas,Austin,30.2693316,-97.6659928,2024.0,16.0,118000.0,False,crypto,16.0,133152.0
+data-foundry,Data Foundry - Austin 1,Texas,Austin,30.2154948,-97.6960608,2003.0,,21133.0,False,small,2.0,14000.0
+onramp-austin-ii,LightEdge - Austin II,Texas,Austin,30.200169,-97.70627,1994.0,,,False,small,2.0,14000.0
+7500-metro-center-drive,7500 Metro Center Drive (AUS11),Texas,Austin,30.2121794,-97.6957746,2001.0,4.2,31600.0,False,small,4.2,29400.0
+hostway-austin-waller,Data Canopy - Austin Waller,Texas,Austin,30.2635804,-97.7303162,2004.0,2.0,21000.0,False,small,2.0,14000.0
+onramp-access,LightEdge - Austin I,Texas,Austin,30.213866,-97.711558,1994.0,,,False,small,2.0,14000.0
+riot-patforms-rockdale,Riot Patforms Rockdale,Texas,Thorndale,30.57439586542036,-97.08070354716374,2023.0,700.0,,False,crypto,700.0,5825400.0
+data-foundry-texas1,Data Foundry - Texas 1,Texas,Austin,30.1988958,-97.7137948,2011.0,24.0,130000.0,False,decent,24.0,176400.0
+connect-temple,Connect Temple,Texas,Temple,31.126016,-97.3580386,2026.0,5.0,61500.0,False,small,5.0,35000.0
+mdc-eagle-pass,MDC Eagle Pass - EGP1,Texas,Eagle Pass,28.7028071,-100.5048819,2023.0,0.5,1500.0,False,small,0.5,3500.0
+stanton-data-center,Stanton Data Center,Texas,El Paso,31.7591246,-106.4860513,2010.0,,4000.0,False,small,2.0,14000.0
+mdc-laredo,MDC Laredo - LDO1,Texas,Laredo,27.6906545,-99.4498701,2018.0,0.65,,False,small,0.65,4550.0
+amazon-aws-sat-7400-potranco,Amazon AWS SAT - 7400 Potranco,Texas,San Antonio,29.45084649296246,-98.63868482326588,2021.0,,109600.0,False,big_ai,50.0,352800.0
+microsoft-texas-research-park-trp2,Microsoft Texas Research Park (TRP2),Texas,San Antonio,29.41192140318219,-98.80395552725028,2018.0,,159000.0,False,big_ai,50.0,352800.0
+bexar-datacenter,Bexar Datacenter,Texas,San Antonio,29.5029183,-98.5569277,2005.0,10.0,,False,decent,10.0,73500.0
+microsoft-san-antonio-sat15,Microsoft San Antonio (SAT15),Texas,San Antonio,29.4699993,-98.6983621,2024.0,,,False,big_ai,50.0,352800.0
+microsoft-texas-research-park-trp1,Microsoft Texas Research Park (TRP1),Texas,San Antonio,29.41205878946721,-98.8026573380872,2017.0,,159000.0,False,big_ai,50.0,352800.0
+datanovax-pioneer-park,DataNovaX Pioneer Park,Texas,Wichita Falls,33.9533237,-98.5247211,2024.0,6.0,37000.0,False,small,6.0,42000.0
+iozera-houston,Iozera Houston,Texas,Houston,29.6493611,-95.5645993,2007.0,10.0,25680.0,False,decent,10.0,73500.0
+crown-castle-tx1,Crown Castle Houston (TX1),Texas,Houston,29.7596106,-95.3662818,2007.0,1.0,5370.0,False,small,1.0,7000.0
+trg-houston-hou2,TRG Houston Two HOU2,Texas,Spring,30.0674298,-95.4597146,2026.0,24.0,110000.0,False,decent,24.0,176400.0
+trg-houston-one,TRG Houston One HOU1,Texas,Spring,30.066303,-95.4592146,2017.0,24.0,150000.0,False,decent,24.0,176400.0
+dataprana-la-marque,Dataprana La Marque,Texas,La Marque,29.394132,-95.0379968,2025.0,30.0,,False,decent,30.0,220500.0
+digital-realty-houston,12061 North Freeway (IAH11),Texas,Houston,29.9431676,-95.4168461,1989.0,3.3,27500.0,False,small,3.3,23100.0
+1001-texas-data-center,1001 Texas Data Center,Texas,Houston,29.7600612,-95.362102,2000.0,4.0,6600.0,False,small,4.0,28000.0
+fibertown-houston,"FIBERTOWN - Houston, Texas",Texas,Houston,29.943519,-95.415895,2011.0,,,False,small,2.0,14000.0
+ecl-terrasite-tx1,ECL TerraSite-TX1,Texas,Houston,29.8222601,-95.2699371,2025.0,1000.0,,False,big_ai,1000.0,7056000.0
+serverfarm-ctx1,Serverfarm Houston Data Center CTX1,Texas,Houston,29.9973255,-95.5640711,2006.0,,,False,small,2.0,14000.0
+1301-fannin,Netrality - 1301 Fannin,Texas,Houston,29.754176,-95.36582,1981.0,26.0,231700.0,False,decent,26.0,191100.0
+montgomery-westland-bunker,Data Journey The Bunker,Texas,Montgomery,30.381137,-95.666618,1981.0,200.0,70000.0,False,big_ai,200.0,1411200.0
+fibertown-bryan-texas,"FIBERTOWN - Bryan, Texas",Texas,Bryan,30.674497,-96.373633,1997.0,,25000.0,False,small,2.0,14000.0
+coreweave-plano,CoreWeave Plano,Texas,Plano,33.0137124,-96.7656859,2023.0,30.0,106000.0,False,big_ai,30.0,211680.0
+colo4dallas,TierPoint Dallas,Texas,Dallas,32.807968,-96.8573392,2008.0,,51000.0,False,small,2.0,14000.0
+2323-bryan-street,2323 Bryan Street (DFW10),Texas,Dallas,32.7872116,-96.7942191,1982.0,3.8,40100.0,False,small,3.8,26600.0
+vazata-mckinney,VAZATA McKinney,Texas,McKinney,33.2234718596891,-96.62861982204292,2016.0,1.0,5000.0,False,small,1.0,7000.0
+4849-alpha-road,4849 Alpha Road (DFW14),Texas,Dallas,32.93394,-96.827985,1999.0,4.5,31000.0,False,small,4.5,31500.0
+cisco-allen,Cisco Allen Data Center,Texas,Allen,33.1359005,-96.6610056,2011.0,5.2,,False,small,5.2,36400.0
+907-security-row,907 Security Row (DFW35),Texas,Richardson,32.9642249,-96.711535,2014.0,9.6,50800.0,False,small,9.6,67200.0
+850-e-collins-boulevard,850 E. Collins Boulevard (DFW28),Texas,Richardson,32.9679639,-96.7137273,2012.0,6.8,60500.0,False,small,6.8,47600.0
+ntt-dallas-tx4,GDC - Dallas TX4 Data Center,Texas,Garland,32.9792949,-96.65827,2026.0,36.0,126720.0,False,decent,36.0,264600.0
+core-scientific-denton,Core Scientific Denton,Texas,Denton,33.21317878448416,-97.21073906115087,2022.0,125.0,,False,crypto,125.0,1040250.0
+tierpoint-dallas-allen,Tierpoint Dallas-Allen,Texas,Allen,33.1379094,-96.6574363,2017.0,,16000.0,False,small,2.0,14000.0
+ntt-dallas-tx3,GDC - Dallas TX3 Data Center,Texas,Garland,32.9810729,-96.6593753,2024.0,36.0,126720.0,False,decent,36.0,264600.0
+ntt-dallas-tx2,GDC - Dallas TX2 Data Center,Texas,Garland,32.9809133,-96.6579647,2024.0,36.0,229500.0,False,decent,36.0,264600.0
+alpha-data-center,Alpha Data Center,Texas,Dallas,32.9335036,-96.8346173,2005.0,2.0,6500.0,False,small,2.0,14000.0
+4025-midway-road,VAZATA Dallas I,Texas,Carrollton,33.0216679,-96.844884,2008.0,3.3,25000.0,False,small,3.3,23100.0
+qts-lancaster,QTS South Dallas DC1,Texas,Lancaster,32.5872327,-96.6964684,2025.0,,,False,decent,15.0,110250.0
+flexential-plano,Flexential Dallas - Plano Data Center,Texas,Plano,33.0072369,-96.6662997,2016.0,18.0,,False,decent,18.0,132300.0
+servermania-dallas-data-center,ServerMania Dallas Data Center,Texas,Dallas,32.8081104,-96.8570424,2000.0,,64000.0,False,small,2.0,14000.0
+equinix-da11,Equinix DA11,Texas,Dallas,32.80131573122965,-96.82107483476484,2020.0,,144000.0,False,decent,15.0,110250.0
+digico-dallas-dal1,DigiCo Dallas DAL1,Texas,Richardson,32.9841609,-96.6982857,2015.0,13.5,40000.0,False,decent,13.5,99225.0
+cyrusone-dfw17-whitney,CyrusOne DFW17 - Whitney,Texas,Whitney,31.8566055,-97.3555729,2026.0,,88875.0,False,decent,15.0,110250.0
+scalematrix-dallas-us-south-01,ScaleMatrix Dallas,Texas,Allen,33.138618,-96.657387,2017.0,12.0,,False,decent,12.0,88200.0
+colocrossing-dfw1,ColoCrossing DFW1,Texas,Dallas,32.8079815,-96.8573625,2000.0,11.1,64000.0,False,decent,11.1,81585.0
+2440-marsh-lane,2440 Marsh Lane (DFW12),Texas,Carrollton,32.9799672,-96.8534887,1998.0,6.7,69800.0,False,small,6.7,46900.0
+prime-dallas-dc1,Prime Dallas - Data Center 1,Texas,Dallas,32.8379029,-96.8784099,2014.0,7.5,38000.0,False,small,7.5,52500.0
+databank-north-dallas,DataBank DFW2 - North Dallas,Texas,Dallas,32.9662417,-96.7111853,2013.0,5.7,41320.0,False,small,5.7,39900.0
+irving-tx-dallas-texas,"IRVING-TX (Dallas, Texas)",Texas,Irving city,32.8933566,-96.9802641,2025.0,8.5,,False,small,8.5,59500.0
+cisco-richardson-data-center,Cisco Richardson Data Center,Texas,Richardson,32.9999273,-96.6789036,2009.0,,,False,small,2.0,14000.0
+tel-x-dallas2,8435 Stemmons Freeway (DFW36),Texas,Dallas,32.8275518,-96.8737025,2008.0,1.2,11000.0,False,small,1.2,8400.0
+kdc-richardson,KDC Richardson,Texas,Richardson,32.98421,-96.696395,2019.0,25.0,100000.0,False,decent,25.0,183750.0
+qts-south-dallas-dc2,QTS South Dallas DC2,Texas,Lancaster,32.5872452,-96.696468,2026.0,,,False,decent,15.0,110250.0
+2501-s-state-highway-121,2501 S. State Highway 121 (DFW26),Texas,Lewisville,33.0533231,-96.9173431,1979.0,,831300.0,False,small,2.0,14000.0
+riot-platforms-corsicana,Riot Platforms Corsicana,Texas,Corsicana,31.96760867943397,-96.51371067756612,2024.0,1000.0,,False,crypto,1000.0,8322000.0
+infomart,Infomart Dallas,Texas,Dallas,32.80088131794157,-96.81948172023762,1985.0,,,False,small,2.0,14000.0
+databank,DataBank DFW1 - Downtown Dallas,Texas,Dallas,32.7782583,-96.7987576,2005.0,7.0,145250.0,False,small,7.0,49000.0
+corespace,CoreSpace Dallas Data Center,Texas,Dallas,32.8175159,-96.8730838,2009.0,2.0,30000.0,False,small,2.0,14000.0
+cyrusone-dfw10-whitney,CyrusOne DFW10 - Whitney,Texas,Whitney,31.8566055,-97.3555729,2026.0,,250000.0,False,decent,15.0,110250.0
+tierpoint-dallas-fort-worth,TierPoint Dallas - Fort Worth,Texas,Fort Worth,32.9796379,-97.2524874,2001.0,18.0,45000.0,False,decent,18.0,132300.0
+ghd-dallas,Lunavi Dallas,Texas,Dallas,32.8009267,-96.8195058,2017.0,,,False,small,2.0,14000.0
+ragingwire-dallas-tx1,GDC - Dallas TX1 Data Center,Texas,Garland,32.981173,-96.6563479,2017.0,16.0,230000.0,False,decent,16.0,117600.0
+4025-midway,4025 Midway Rd (DFW11),Texas,Carrollton,33.021641,-96.844558,2000.0,4.4,48500.0,False,small,4.4,30800.000000000004
+serverphase-com,Serverphase Data Center,Texas,Carrollton,32.964129,-96.8456337,2008.0,2.0,10000.0,False,small,2.0,14000.0
+24hour-plano,24 Hour Data Plano,Texas,Plano,33.0079997,-96.7020342,2009.0,,,False,small,2.0,14000.0
+1210-integrity-drive,1210 Integrity Drive (DFW18),Texas,Richardson,32.96641528,-96.71448144,2014.0,36.0,227800.0,False,decent,36.0,264600.0
+internap-dallas,Evocative DAL6,Texas,Plano,33.015681,-96.768421,2011.0,12.0,52000.0,False,decent,12.0,88200.0
+h5-colo-dallas,H5Colo  Inc.,Texas,Dallas,32.9215006,-96.7765026,2008.0,,20000.0,False,decent,15.0,110250.0
+950-e-collins-boulevard,950 E. Collins Boulevard (DFW29),Texas,Richardson,32.9672132,-96.7106402,2012.0,7.2,63000.0,False,small,7.2,50400.0
+edged-dallas,Edged Dallas-Fort Worth DFW01-1,Texas,Irving,32.8176612647803,-96.91798622983698,2025.0,24.0,162545.0,False,decent,24.0,176400.0
+cipher-stingray,Cipher Stingray,Texas,Andrews,32.37483129530126,-102.9887929268007,2026.0,100.0,,False,crypto,100.0,832200.0
+cipher-black-pearl,Cipher Black Pearl,Texas,Wink,31.68868617666143,-103.0696710305582,2025.0,300.0,,False,crypto,300.0,2496600.0
+sang-tx,"SANG-TX (San Angelo, Texas)",Texas,San Angelo,31.4314439,-100.4637862,2023.0,7.8,,False,small,7.8,54600.0
+duos-edge-ai-amarillo,Duos Edge AI - Amarillo,Texas,Amarillo,35.2050888,-101.8391723,2026.0,,,False,small,2.0,14000.0
+mcallen-data-center,MDC McAllen - MCA1,Texas,McAllen,26.201943,-98.231452,2011.0,0.4,,False,small,0.4,2800.0
+mdc-mcallen-mca2,MDC McAllen - MCA2,Texas,McAllen,26.1993898,-98.2321541,2020.0,1.0,,False,small,1.0,7000.0
+core-scientific-pecos,Core Scientific Pecos,Texas,Pecos,31.5417384,-103.818692,2022.0,234.0,,False,crypto,234.0,1947348.0
+crusoe-abilene-building-8,Crusoe Abilene - Building 8,Texas,Abilene,32.504135,-99.777719,2026.0,,,False,crypto,50.0,416100.0
+crusoe-abilene-building-1,Crusoe Abilene - Building 1,Texas,Abilene,32.505944,-99.781582,2025.0,,,False,crypto,50.0,416100.0
+crusoe-abilene-building-6,Crusoe Abilene - Building 6,Texas,Abilene,32.504135,-99.778841,2026.0,,,False,crypto,50.0,416100.0
+crusoe-abilene-building-7,Crusoe Abilene - Building 7,Texas,Abilene,32.505944,-99.777719,2026.0,,,False,crypto,50.0,416100.0
+crusoe-abilene-building-5,Crusoe Abilene - Building 5,Texas,Abilene,32.505944,-99.778841,2026.0,,,False,crypto,50.0,416100.0
+crusoe-abilene-building-2,Crusoe Abilene - Building 2,Texas,Abilene,32.504135,-99.781582,2025.0,,,False,crypto,50.0,416100.0
+crusoe-abilene-building-3,Crusoe Abilene - Building 3,Texas,Abilene,32.505944,-99.780493,2026.0,,,False,crypto,50.0,416100.0
+crusoe-abilene-building-4,Crusoe Abilene - Building 4,Texas,Abilene,32.504135,-99.780493,2026.0,,,False,crypto,50.0,416100.0
+the-fort-honolulu,"DRFortress - Honolulu, Hawaii",Hawaii,Honolulu,21.335541,-157.9162977,2006.0,4.2,65000.0,False,small,4.2,29400.0
+mtp-data-center,MTP Data Center,Hawaii,Mililani,21.4809474,-158.0192693,2021.0,1.0,,False,small,1.0,7000.0
+concergent,UV&S Data Center,Kansas,Wichita,37.689269,-97.343345,2003.0,1.0,9900.0,False,small,1.0,7000.0
+euphemystic-ventures-ai-micro-datacenter,Euphemystic Ventures AI micro-datacenter,Kansas,Lawrence,38.9481178,-95.2678197,2026.0,0.01,100.0,False,small,0.01,70.0
+ionos-lenexa,IONOS Lenexa,Kansas,Lenexa,38.93119125302246,-94.75309457361034,2007.0,,,False,small,2.0,14000.0
+netrality-7801-nieman,Netrality - KC2 7801 Nieman Kansas Data Center,Kansas,Shawnee,38.9865887,-94.7123953,2023.0,10.0,,False,decent,10.0,73500.0
+digico-kansas-city-kcm1,DigiCo Kansas City KCM1,Kansas,Olathe,38.94013431829805,-94.86772189232298,2016.0,13.5,70848.0,False,decent,13.5,99225.0
+netstandard,NetStandard Data Center,Kansas,Kansas City,39.0496359,-94.6526909,2001.0,,,False,small,2.0,14000.0
+cosentry-lenexa,TierPoint Kansas City - Lenexa,Kansas,Lenexa,38.9407414,-94.7552244,2012.0,6.6,11000.0,False,small,6.6,46200.0
+aoscloud,C1 Kansas Data Center,Kansas,Olathe,38.9357321,-94.7919983,1995.0,,,False,small,2.0,14000.0
+dss-data-center,Contegix Wyomissing,Pennsylvania,Wyomissing,40.355377,-75.984699,2007.0,2.0,14780.0,False,small,2.0,14000.0
+directlink-technologies,Direct LTx Data Center,Pennsylvania,Reading,40.3813197,-75.9820247,2006.0,6.0,110000.0,False,small,6.0,42000.0
+valley-forge,TierPoint Valley Forge,Pennsylvania,Norristown,40.1218541,-75.4208973,2005.0,,61000.0,False,small,2.0,14000.0
+vilogics,viLogics Ebensburg,Pennsylvania,Ebensburg,40.458574,-78.7587762,2011.0,3.0,2500.0,False,small,3.0,21000.0
+south-park-building,viLogics South Park Building,Pennsylvania,Ebensburg,,,2014.0,40.0,124800.0,False,decent,40.0,294000.0
+netrepid,Alerify Data Center,Pennsylvania,Harrisburg,40.3175212,-76.8547797,2009.0,,8000.0,False,small,2.0,14000.0
+crown-castle-philadelphia1,Crown Castle Philadelphia (PA2),Pennsylvania,Philadelphia,39.9605975,-75.1604395,2018.0,1.0,14331.0,False,small,1.0,7000.0
+keystone-nap-1,Keystone NAP,Pennsylvania,Fairless Hills,40.1535174,-74.7426452,2014.0,2.0,120.0,False,small,2.0,14000.0
+truenet,TrueNet,Pennsylvania,West Chester,39.94657855735757,-75.57975769042969,2013.0,,,False,small,2.0,14000.0
+crown-castle-philadelphia2,Crown Castle Philadelphia (PA1),Pennsylvania,Philadelphia,39.9598126,-75.1608872,2005.0,5.0,28458.0,False,small,5.0,35000.0
+tierpoint-lehigh-valley,TierPoint Lehigh Valley,Pennsylvania,Bethlehem,40.6749901,-75.3780242,2011.0,,8700.0,False,small,2.0,14000.0
+terminal-commerce-building,Netrality - 401 N Broad Philadelphia Data Center,Pennsylvania,Philadelphia,39.95956,-75.160838,1990.0,40.0,13000000.0,False,decent,40.0,294000.0
+comcast-moorestown,Comcast Moorestown,Pennsylvania,Moorestown,39.9893611,-74.88954009999999,2001.0,,24750.0,False,small,2.0,14000.0
+philadelphia-technology-park,TierPoint Philadelphia- Navy Yard,Pennsylvania,Pennsylvania,39.8924992,-75.1655079,2010.0,,11000.0,False,small,2.0,14000.0
+iron-mountain-wpa-1,Iron Mountain Data Centers WPA-1,Pennsylvania,Boyers,41.0914783,-79.9134942,2013.0,15.5,330000.0,False,decent,15.5,113925.0
+aspstation,aspStation Data Center,Pennsylvania,Pittsburgh,40.4652826,-79.946724,2000.0,,,False,small,2.0,14000.0
+ardent-pittsburgh,Ardent Pittsburgh,Pennsylvania,McKees Rocks,40.43957436734448,-80.14201806425895,1980.0,20.0,,False,decent,20.0,147000.0
+involta-pittsburgh,Ark Data Centers Pittsburgh,Pennsylvania,Freeport,40.7523755,-79.6373443,2017.0,1.5,11200.0,False,small,1.5,10500.0
+182-northpointe-blvd,182 Northpointe Blvd,Pennsylvania,Freeport,40.7559041,-79.6367597,2006.0,100.0,71000.0,False,big_ai,100.0,705600.0
+tek-park,"TierPoint Allentown-TekPark, PA",Pennsylvania,Allentown,40.5443278,-75.6543079,2008.0,16.0,58000.0,False,decent,16.0,117600.0
+aaim-nebraska-1,AAIM Nebraska 1,Nebraska,Aurora,40.84289780607994,-97.99159193966044,2024.0,15.0,7300.0,False,decent,15.0,110250.0
+lococolo,LoCoCoLo,Nebraska,Omaha,41.2480242,-96.0282367,2011.0,,2000.0,False,decent,15.0,110250.0
+scott-data-center,Scott Data Center,Nebraska,Omaha,41.2437917,-96.0172896,2006.0,,,False,small,2.0,14000.0
+cosentry-midlands,TierPoint Omaha-Midlands,Nebraska,Papillion,41.1346075,-96.0391842,2010.0,,40000.0,False,small,2.0,14000.0
+litewire,Litewire Data Center,Tennessee,McMinnville,35.6920634,-85.7607224,2014.0,,,False,small,2.0,14000.0
+airnet-group,"Airnet, by Dataprise",Tennessee,Chattanooga,35.0473205,-85.3107537,2002.0,,12765.0,False,small,2.0,14000.0
+bitdeer-knoxville-tennessee,Bitdeer Tennessee,Tennessee,Knoxville,35.9420515,-83.8352896,2020.0,86.0,,False,crypto,86.0,715692.0
+lcub-data-center,LCUB Data Center,Tennessee,Lenoir City,35.8407381,-84.2658246,2018.0,2.0,4400.0,False,small,2.0,14000.0
+tierpoint-nashville,TierPoint Nashville,Tennessee,Franklin,35.9245231,-86.8555194,2013.0,2.4,26000.0,False,small,2.4,16800.0
+the-stem-practice-memphis,The STEM Practice Memphis,Tennessee,Memphis,35.1619366,-89.8601101,2026.0,9.0,38500.0,False,small,9.0,63000.0
+connect-memphis,Connect Memphis,Tennessee,Memphis,35.04177240000001,-89.8845309,2025.0,,99000.0,False,small,2.0,14000.0
+collierville-enterprise-data-center,Collierville Enterprise Data Center,Tennessee,Collierville,35.039048,-89.7186456,2001.0,10.0,41000.0,False,decent,10.0,73500.0
+crown-castle-nj1,Crown Castle Newawk (NJ1),New Jersey,Newawk,40.7368322,-74.1735653,2010.0,,9428.0,False,small,2.0,14000.0
+continuity-centers-princeton,Continuity Centers Princeton,New Jersey,Princeton,40.3495746,-74.5947562,2016.0,,158235.0,False,small,2.0,14000.0
+newport-financial-center,Newport Financial Center,New Jersey,Jersey City,40.7263945,-74.033621,1988.0,,480000.0,False,small,2.0,14000.0
+one-evertrust-plaza,One Evertrust Plaza,New Jersey,Jersey City,40.7184768,-74.037586,1986.0,,,False,small,2.0,14000.0
+telx-njr2,100 Delawanna Ave (EWR20),New Jersey,Clifton,40.82998709,-74.12638166,1971.0,3.9,143500.0,False,small,3.9,27300.0
+2-peekay-drive,2 Peekay Drive (EWR21),New Jersey,Clifton,40.8305887,-74.1245449,2013.0,30.0,55200.0,False,decent,30.0,220500.0
+dataverge-nj,DataVerge NJ,New Jersey,Jersey City,40.7263044,-74.0337401,1975.0,1.0,10000.0,False,small,1.0,7000.0
+equinix-ny6,Equinix NY6,New Jersey,Secaucus,40.77750539619046,-74.07271387500744,2015.0,,16393.0,False,decent,15.0,110250.0
+atlantic-metro-ewr1,365 Data Centers - Weehawken,New Jersey,Weehawken,40.761979,-74.026033,2014.0,0.281,,False,small,0.281,1967.0000000000002
+interserver,InterServer TEB2,New Jersey,Secaucus,40.7860205,-74.073953,2007.0,,6500.0,False,small,2.0,14000.0
+coresite-ny3,CoreSite Secaucus (NY3),New Jersey,Secaucus,40.78505169854645,-74.06526748830495,2024.0,15.0,85000.0,False,decent,15.0,110250.0
+h5-new-jersey,H5 Data Centers New Jersey,New Jersey,Secaucus,40.7852512,-74.0749908,2010.0,5.0,38000.0,False,small,5.0,35000.0
+net-access-parsippany-ii,Cologix NNJ3,New Jersey,Parsippany,40.857084,-74.418907,2010.0,,,False,decent,15.0,110250.0
+cedar-knolls-datacenter,Cologix NNJ2,New Jersey,Cedar Knolls,40.831772,-74.448799,2006.0,,,False,decent,15.0,110250.0
+365dcs-bridgewater-nj,"365 Data Centers - Bridgewater, NJ",New Jersey,Bridgewater Township,40.5814613,-74.57389,2010.0,20.0,25600.0,False,decent,20.0,147000.0
+nj1,NYI - New Jersey,New Jersey,Bridgewater,40.5815421,-74.5736396,2010.0,20.0,,False,decent,20.0,147000.0
+whitelabel-itsolutions,Whitelabel IT Solutions Data Center,New Jersey,Hackensack,40.8832772,-74.0502641,2016.0,4.0,20000.0,False,small,4.0,28000.0
+open-data-centers,Hammer Piscataway Data Center,New Jersey,Piscataway,40.5495735,-74.4557503,2012.0,,10000.0,False,small,2.0,14000.0
+365-south-randolphville,365 S. Randolphville Road (EWR12),New Jersey,Piscataway,40.5529182,-74.4592115,1970.0,14.4,134300.0,False,decent,14.4,105840.0
+3-corporate-place,3 Corporate Place (EWR11),New Jersey,Piscataway,40.5545366,-74.4568998,1970.0,3.3,28400.0,False,small,3.3,23100.0
+colocrossing-nj1,ColoCrossing NJ1,New Jersey,Piscataway,40.5571626,-74.4842568,2010.0,36.4,,False,decent,36.4,267540.0
+1115-centennial-avenue,1115 Centennial Avenue (EWR19),New Jersey,Piscataway,40.5529182,-74.4592115,1970.0,4.8,36400.0,False,small,4.8,33600.0
+constant-hosting-pnj1,Constant Hosting PNJ1,New Jersey,Piscataway,40.5572279,-74.4840422,2010.0,36.0,176000.0,False,decent,36.0,264600.0
+tonaquint-boi,ValorC3 Boise Data Center,Idaho,Boise,43.6080104,-116.3101535,2000.0,2.0,8500.0,False,small,2.0,14000.0
+involta-boise,Ark Data Centers Boise 1,Idaho,Boise,43.5799403,-116.2907646,2015.0,1.0,10000.0,False,small,1.0,7000.0
+adtaq-idaho-datacenter,ADTAQ Idaho Datacenter,Idaho,Weiser,44.2457448,-116.9704836,2025.0,0.1,,False,small,0.1,700.0
+kattare-cvo,Kattare Corvallis Data Center,Oregon,Corvallis,44.5109314,-123.2769639,1997.0,,3000.0,False,small,2.0,14000.0
+columbia1,Columbia 1,Oregon,Bend,44.047105,-121.328075,2016.0,2.0,6900.0,False,small,2.0,14000.0
+oneneck-bend,US Signal Bend OR01,Oregon,Bend,44.0860672,-121.2829166,2011.0,0.9,5000.0,False,small,0.9,6300.0
+fortune-oregon,STACK Infrastructure POR02A,Oregon,Hillsboro,45.547232,-122.897295,2012.0,24.0,,False,decent,24.0,176400.0
+6675-ne-62nd,6675 NE 62nd Ave (PDX11),Oregon,Hillsboro,45.568047,-122.9169313,2021.0,54.0,300800.0,False,big_ai,54.0,381024.0
+telx-prt1,3825 NW Aloclek Street (PDX10),Oregon,Hillsboro,45.547609,-122.892017,2012.0,10.0,,False,decent,10.0,73500.0
+hillsboro-datacenter,Opus Interactive Hillsboro Datacenter,Oregon,Hillsboro,45.54740496161695,-122.8979104757309,2012.0,24.0,340000.0,False,decent,24.0,176400.0
+easystreet-online-services,Digital Fortress Portland 2,Oregon,Beaverton,45.475963,-122.776797,1995.0,1.2,1704.0,False,small,1.2,8400.0
+flexential-hillsboro3,Flexential Portland - Hillsboro 3 Data Center,Oregon,Hillsboro,45.5604163,-122.9376545,2020.0,36.0,,False,decent,36.0,264600.0
+flexential-hillsboro2,Flexential Portland - Hillsboro 2 Data Center,Oregon,Hillsboro,45.5570103,-122.9211116,2015.0,18.0,,False,decent,18.0,132300.0
+flexential-hillsboro5,Flexential Portland - Hillsboro 5 Data Center,Oregon,Hillsboro,45.5564705,-122.9393305,2026.0,36.0,,False,decent,36.0,264600.0
+vegasnap,Fiberhub LAS1,Nevada,Las Vegas,36.06598,-115.138266,2010.0,,7000.0,False,small,2.0,14000.0
+7185-pollock,DataBank LAS1 - Las Vegas,Nevada,Las Vegas,36.05966,-115.1470449,2012.0,3.55,57364.0,False,small,3.55,24850.0
+roller-network2,Roller Network Data Center,Nevada,Reno,39.4693602,-119.7699757,2009.0,,,False,small,2.0,14000.0
+colovore-rn01,Colovore RN01,Nevada,Sparks,39.5314283,-119.4809659,2025.0,20.0,,False,decent,20.0,147000.0
+novva-tahoe-reno,Novva Tahoe Reno,Nevada,McCarran,39.5268671,-119.6246269,2025.0,60.0,180000.0,False,big_ai,60.0,423360.0
+sierra-morena-tower,"Sierra Morena Tower, LLC",California,Redwood City,37.410485,-122.3072202,2024.0,1.0,2000.0,False,small,1.0,7000.0
+aisonet,Viridio Solar Powered Data Center,California,Romoland,33.748108,-117.152151,1997.0,,2000.0,False,small,2.0,14000.0
+marquisnet-riverside,Acorn Technology Services Data Center,California,Riverside,33.9937329,-117.3469228,2007.0,,23000.0,False,small,2.0,14000.0
+mcclellan-brc,Quest McClellan BRC,California,McClellan Park,38.6444895,-121.4066073,2008.0,6.0,30.0,False,small,6.0,42000.0
+conscious-data-centers,Conscious Data Centers,California,Rancho Cordova,38.5870116,-121.2821277,2019.0,5.0,50000.0,False,small,5.0,35000.0
+prime-data-centers,Prime Data Centers,California,McClellan,38.6432234,-121.4074459,2016.0,45.0,,False,decent,45.0,330750.0
+quest-roseville-sdc,Quest Roseville HABC,California,Roseville,38.7909258,-121.317567,2014.0,8.0,20000.0,False,small,8.0,56000.0
+ayera-city-tower,Ayera Modesto City Tower,California,Modesto,37.6385301,-120.99852,2006.0,,8000.0,False,small,2.0,14000.0
+edgeconnex-arcata-edcacv01,EdgeConneX Arcata - EDCACV01,California,Arcata,40.872135,-124.0908738,2020.0,,,False,small,2.0,14000.0
+equinix-sv12x,Equinix SV12x,California,San Jose,37.2333796,-121.7815418,2026.0,28.8,76000.0,False,decent,28.8,211680.0
+svcolo-sunnyvale,SVCOLO Sunnyvale,California,Sunnyvale,37.4004081,-122.0143135,2002.0,,,False,decent,15.0,110250.0
+equinix-sv18,Equinix SV18,California,San Jose,37.2343488,-121.783659,2026.0,,,False,decent,15.0,110250.0
+2334-lundy-place,2334 Lundy Place,California,San Jose,37.405884,-121.888912,1983.0,,130700.0,False,small,2.0,14000.0
+equinix-san-jose1,Equinix SV1,California,San Jose,37.2416077,-121.7833501,2000.0,,82849.0,False,decent,15.0,110250.0
+fortune,STACK Infrastructure SVY01A,California,San Jose,37.402557,-121.8933284,2009.0,9.0,,False,small,9.0,63000.0
+200-north-nash-street,200 North Nash Street (LAX11),California,El Segundo,33.91773,-118.386525,1996.0,,60000.0,False,small,2.0,14000.0
+equinix-el-segundo,Equinix LA4,California,El Segundo,33.9216329,-118.3840239,2009.0,,77263.0,False,decent,15.0,110250.0
+ic2net-tustin-data-center,IC2NET Tustin,California,Tustin,33.7176679,-117.8083267,2003.0,,20000.0,False,small,2.0,14000.0
+streaming-media-hosting,Aecero CBX,California,Anaheim,33.8495253,-117.9709823,2000.0,6.0,110000.0,False,small,6.0,42000.0
+millennium-systems,Millennium Systems Inc,California,Irvine,33.6321588,-117.734101,1999.0,,1500.0,False,small,2.0,14000.0
+grupo-sms,SMS Datacenter,California,Irvine,33.6831608,-117.8435413,1981.0,,41000.0,False,small,2.0,14000.0
+mdc-san-diego,MDC San Diego - SDG1,California,San Diego,32.5941922,-117.0853841,2023.0,0.5,3000.0,False,small,0.5,3500.0
+simplenet-colo,SimpleNet Colo,California,San Diego,32.7152655,-117.1624985,1998.0,,2000.0,False,decent,15.0,110250.0
+scalematrix,ScaleMatrix San Diego ,California,San Diego,32.837756,-117.132835,1995.0,5.0,,False,small,5.0,35000.0
+fortress-data-centers,Fortress Data Centers,California,San Francisco,37.7825822,-122.3917644,2016.0,5.0,,False,small,5.0,35000.0
+3015-winona-avenue,3015 Winona Avenue (BUR10),California,Burbank,34.1998625,-118.3437949,1991.0,,15300.0,False,small,2.0,14000.0
+xfernet-data-center,Xfernet Data Center,California,Koreatown,34.0613935,-118.2931958,1998.0,,10000.0,False,small,2.0,14000.0
+la2,Hivelocity - Los Angeles 2,California,Los Angeles,34.047322,-118.2574494,2000.0,10.0,490000.0,False,decent,10.0,73500.0
+ix2-networks-530-w-6th,Crown Castle Los Angeles LA2,California,Los Angeles,34.0478121,-118.2568332,2005.0,1.0,6491.0,False,small,1.0,7000.0
+is-west-agoura-ct,Converge Technology Solutions Agoura Hills,California,Agoura Hills,34.1460242,-118.7771808,2008.0,1.0,6000.0,False,small,1.0,7000.0
+telehouse-los-angeles,TELEHOUSE Los Angeles Center,California,Los Angeles,34.048138,-118.256277,1998.0,0.665,,False,small,0.665,4655.0
+ix2-networks,Crown Castle Los Angeles LA1,California,Los Angeles,34.0511405,-118.2659179,1998.0,1.0,18400.0,False,small,1.0,7000.0
+vernon-data-center,Vernon Data Center,California,Vernon,33.9985878,-118.2217903,2008.0,52.0,,False,big_ai,52.0,366912.0
+the-garland-building,West 7 Center,California,Los Angeles,34.051484,-118.265757,2016.0,16.9,150000.0,False,decent,16.9,124214.99999999999
+2260-e-el-segundo,2260 E El Segundo Blvd (LAX12),California,El Segundo,33.9156347,-118.3846072,1979.0,7.1,66800.0,False,small,7.1,49700.0
+prime-los-angeles,Prime Los Angeles,California,Vernon,34.0011773,-118.2309309,2024.0,33.0,110310.0,False,decent,33.0,242550.0
+wilcon,Crown Castle Los Angeles LA3,California,Los Angeles,34.0483961,-118.2551467,2009.0,,3388.0,False,small,2.0,14000.0
+aon-center-la,Aon Center,California,Los Angeles,34.049227,-118.256979,1973.0,,,False,small,2.0,14000.0
+downtown-colo-corporation,Subrigo - 650 South Grand,California,Los Angeles,34.048721,-118.255266,1998.0,2.0,6000.0,False,small,2.0,14000.0
+641-walsh,641 Walsh Ave (SJC37),California,Santa Clara,37.370837,-121.946792,2022.0,,,False,small,2.0,14000.0
+2045-2055-lafayette-street,2045 & 2055 LaFayette St (SJC17),California,Santa Clara,37.34741,-121.941833,2000.0,,300000.0,False,small,2.0,14000.0
+1201-comstock-street,1201 Comstock St (SJC15),California,Santa Clara,37.3749804,-121.954079,2009.0,2.2,14000.0,False,small,2.2,15400.000000000002
+1100-space-park-drive,1100 Space Park Dr (SJC10),California,Santa Clara,37.375823,-121.9533248,2001.0,6.3,67900.0,False,small,6.3,44100.0
+1525-comstock-street,1525 Comstock St (SJC16),California,Santa Clara,37.3749295,-121.9560081,1980.0,4.5,65500.0,False,small,4.5,31500.0
+3115-alfred-rd,3205 Alfred St (SJC35),California,Santa Clara,37.3790313,-121.9583275,2018.0,6.0,34200.0,False,small,6.0,42000.0
+2220-de-la-cruz-boulevard,2220 De La Cruz Blvd (SC1),California,Santa Clara,37.3617685,-121.9437734,2011.0,52.6,238900.0,False,big_ai,52.6,371145.60000000003
+colovore,Colovore SJC01,California,Santa Clara,37.376671,-121.953162,2013.0,9.0,,False,small,9.0,63000.0
+coresite-santa-clara-sv7,CoreSite Santa Clara (SV7),California,Santa Clara,37.37601069999999,-121.973083,2016.0,,,False,decent,15.0,110250.0
+3011-lafayette-street,3011 Lafayette St (SJC11),California,Santa Clara,37.37634,-121.948688,2001.0,6.0,51000.0,False,small,6.0,42000.0
+cologix-sv1,Cologix SV1,California,Santa Clara,37.36751391096377,-121.9638310927645,2021.0,20.0,,False,decent,20.0,147000.0
+edgecore-silicon-valley-sv01,EdgeCore Silicon Valley SV01,California,Santa Clara,37.383792,-121.965393,2025.0,36.0,,False,decent,36.0,264600.0
+3105-alfred-rd,3105 Alfred Rd (SJC30),California,Santa Clara,37.3782712,-121.9581122,1974.0,4.5,26900.0,False,small,4.5,31500.0
+2805-lafayette,2805 Lafayette St (SJC31),California,Santa Clara,37.3722803,-121.9482559,1984.0,9.3,55800.0,False,small,9.3,65100.00000000001
+720-2nd-st,720 2nd Street (OAK10),California,Oakland,37.7990209,-122.2825072,2007.0,7.5,50000.0,False,small,7.5,52500.0

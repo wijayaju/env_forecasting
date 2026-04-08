@@ -1,0 +1,47 @@
+data_center_id,data_center_name,state,city,latitude,longitude,year_operational,capacity_mw,capacity_sqft,is_planned,dc_category,capacity_mw_est,estimated_energy_mwh
+patmos-kansas-city,Patmos Kansas City,Missouri,Kansas City,39.0947391,-94.5793757,2006.0,100.0,400000.0,False,big_ai,100.0,705600.0
+meta-kansas-city-building-1,Meta Kansas City - Building 1,Missouri,Kansas City,39.32270498045392,-94.59795399688952,2025.0,,,False,big_ai,50.0,352800.0
+11155-n-airworld-dr,Lambda Kansas City,Missouri,Kansas City,39.2956805,-94.6740566,2026.0,100.0,,False,big_ai,100.0,705600.0
+impactdata-greensboro-dream-center,ImpactData Greensboro Dream Center,North Carolina,Greensboro,36.0575826,-79.745705,2026.0,300.0,65000.0,False,big_ai,300.0,2116800.0
+805-island-drive,Enovum Data Centers NC01 - Madison,North Carolina,Madison,36.4041401,-79.9890524,2026.0,200.0,,False,big_ai,200.0,1411200.0
+server-central-chicago,Summit Chicago,Illinois,Chicago,41.853036,-87.61886,2000.0,70.0,,False,big_ai,70.0,493920.0
+microsoft-northlake,Microsoft Northlake,Illinois,Northlake,41.9229989,-87.9182329,2009.0,,700000.0,False,big_ai,50.0,352800.0
+ntt-gainesville-va11,GDC - VA11 Data Center,Virginia,Gainesville,38.800446,-77.611984,2026.0,92.0,336000.0,False,big_ai,92.0,649152.0
+ntt-gainesville-va10,GDC - VA10 Data Center,Virginia,Gainesville,38.799419,-77.610214,2024.0,84.0,295680.0,False,big_ai,84.0,592704.0
+aligned-iad-02,Aligned IAD-02,Virginia,Ashburn,39.010247,-77.4749719,2020.0,120.0,283023.0,False,big_ai,120.0,846720.0
+edgecore-ashburn-as01,EdgeCore Ashburn AS01,Virginia,Sterling,39.0218016,-77.4146767,2026.0,72.0,,False,big_ai,72.0,508032.0
+44274-round-table-plaza-bldg-l,"44274 Round Table Plaza, Bldg L (IAD39)",Virginia,Ashburn,39.0077105,-77.4676609,2017.0,96.3,469600.0,False,big_ai,96.3,679492.7999999999
+aligned-iad-01,Aligned IAD-01,Virginia,Ashburn,39.013328,-77.47145200000001,2019.0,60.0,,False,big_ai,60.0,423360.0
+powerhouse-abx1,CyrusOne NVA14,Virginia,Ashburn,39.01963454166167,-77.45053166694414,2023.0,60.0,,False,big_ai,60.0,423360.0
+amazon-aws-iad-22370-kipper,Amazon AWS IAD - 22370 Kipper,Virginia,Dulles,38.996839,-77.435703,2020.0,,,False,big_ai,50.0,352800.0
+amazon-aws-iad-22420-kipper,Amazon AWS IAD - 22420 Kipper,Virginia,Dulles,38.995047,-77.435287,2021.0,,,False,big_ai,50.0,352800.0
+t5-data-centers-t5atlanta-3,T5 Data Centers - T5@Atlanta 3,Georgia,Lithia Springs,33.763433,-84.60498,2025.0,66.0,476000.0,False,big_ai,66.0,465696.0
+lighthouse-clt01,LightHouse CLT01,Ohio,Hamilton,39.3833235,-84.5580919,2026.0,288.0,160000.0,False,big_ai,288.0,2032128.0
+5cdc-columbus-cmh01,5CDC Columbus - CMH01,Ohio,Springfield,39.912807,-83.72371799999999,2005.0,900.0,214078.0,False,big_ai,900.0,6350400.0
+novva-flagship,Novva Salt Lake City,Utah,West Jordan,40.5725846,-112.0459884,2021.0,200.0,330000.0,False,big_ai,200.0,1411200.0
+blockfusion-niagara-falls,Blockfusion Niagara Falls,New York,Niagara Falls,43.0831175,-79.0030939,2019.0,100.0,,False,big_ai,100.0,705600.0
+digipowerx-north-tonawanda,DigiPowerX North Tonawanda,New York,North Tonawanda,43.04865590763131,-78.85203346607373,2021.0,120.0,,False,big_ai,120.0,846720.0
+hyperscale-data-michigan,Hyperscale Data Michigan,Michigan,Dowagiac,41.992413,-86.098981,1972.0,340.0,617000.0,False,big_ai,340.0,2399040.0
+microsoft-goodyear-2,Microsoft Goodyear (PHX70),Arizona,Goodyear,33.4926119,-112.4384401,2020.0,,,False,big_ai,50.0,352800.0
+apple-mesa-data-center,Apple Mesa Data Center,Arizona,Mesa,33.3470151,-111.6040335,2016.0,,,False,big_ai,50.0,352800.0
+phoenix-campus,Aligned PHX01,Arizona,Phoenix,33.6588811,-112.1106061,2017.0,180.0,300000.0,False,big_ai,180.0,1270080.0
+meta-mesa-building-1,Meta Mesa - Building 1,Arizona,Mesa,33.34731007474267,-111.6333609001364,2025.0,,,False,big_ai,50.0,352800.0
+novva-mesa,Novva Mesa,Arizona,Mesa,33.33908510219398,-111.6393690795214,2026.0,96.0,1300000.0,False,big_ai,96.0,677376.0
+microsoft-goodyear-1,Microsoft GoodyearAirpark (PHX10),Arizona,Goodyear,33.4079525,-112.364793,2019.0,,,False,big_ai,50.0,352800.0
+meta-mesa-building-2,Meta Mesa - Building 2,Arizona,Mesa,33.34725630048721,-111.6316872017901,2025.0,,,False,big_ai,50.0,352800.0
+twin-cities-east,IronGate Twin Cities East,Minnesota,Woodbury,44.94631,-92.9526548,2025.0,66.0,60000.0,False,big_ai,66.0,465696.0
+one-market,AiNET One Market Center,Maryland,Baltimore,39.2919659,-76.6203816,2014.0,80.0,150000.0,False,big_ai,80.0,564480.0
+ainet-cybernap,AiNET CyberNAP,Maryland,Glen Burnie,39.1386697,-76.6060397,2012.0,80.0,300000.0,False,big_ai,80.0,564480.0
+data-foundry-the-data-ranch,Data Foundry - The Data Ranch,Texas,Austin,30.1993765,-97.7135692,2011.0,60.0,295000.0,False,big_ai,60.0,423360.0
+amazon-aws-sat-7400-potranco,Amazon AWS SAT - 7400 Potranco,Texas,San Antonio,29.45084649296246,-98.63868482326588,2021.0,,109600.0,False,big_ai,50.0,352800.0
+microsoft-texas-research-park-trp2,Microsoft Texas Research Park (TRP2),Texas,San Antonio,29.41192140318219,-98.80395552725028,2018.0,,159000.0,False,big_ai,50.0,352800.0
+microsoft-san-antonio-sat15,Microsoft San Antonio (SAT15),Texas,San Antonio,29.4699993,-98.6983621,2024.0,,,False,big_ai,50.0,352800.0
+microsoft-texas-research-park-trp1,Microsoft Texas Research Park (TRP1),Texas,San Antonio,29.41205878946721,-98.8026573380872,2017.0,,159000.0,False,big_ai,50.0,352800.0
+ecl-terrasite-tx1,ECL TerraSite-TX1,Texas,Houston,29.8222601,-95.2699371,2025.0,1000.0,,False,big_ai,1000.0,7056000.0
+montgomery-westland-bunker,Data Journey The Bunker,Texas,Montgomery,30.381137,-95.666618,1981.0,200.0,70000.0,False,big_ai,200.0,1411200.0
+coreweave-plano,CoreWeave Plano,Texas,Plano,33.0137124,-96.7656859,2023.0,30.0,106000.0,False,big_ai,30.0,211680.0
+182-northpointe-blvd,182 Northpointe Blvd,Pennsylvania,Freeport,40.7559041,-79.6367597,2006.0,100.0,71000.0,False,big_ai,100.0,705600.0
+6675-ne-62nd,6675 NE 62nd Ave (PDX11),Oregon,Hillsboro,45.568047,-122.9169313,2021.0,54.0,300800.0,False,big_ai,54.0,381024.0
+novva-tahoe-reno,Novva Tahoe Reno,Nevada,McCarran,39.5268671,-119.6246269,2025.0,60.0,180000.0,False,big_ai,60.0,423360.0
+vernon-data-center,Vernon Data Center,California,Vernon,33.9985878,-118.2217903,2008.0,52.0,,False,big_ai,52.0,366912.0
+2220-de-la-cruz-boulevard,2220 De La Cruz Blvd (SC1),California,Santa Clara,37.3617685,-121.9437734,2011.0,52.6,238900.0,False,big_ai,52.6,371145.60000000003

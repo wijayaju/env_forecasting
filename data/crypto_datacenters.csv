@@ -1,0 +1,27 @@
+data_center_id,data_center_name,state,city,latitude,longitude,year_operational,capacity_mw,capacity_sqft,is_planned,dc_category,capacity_mw_est,estimated_energy_mwh
+core-scientific-marble,Core Scientific Marble,North Carolina,Marble,35.18557054286533,-83.91614842883564,2018.0,105.0,,False,crypto,105.0,873810.0
+applied-digital-eln-datacenter,Applied Digital Polaris Forge 1,North Dakota,Ellendale,46.01508479946312,-98.57233254208022,2025.0,,,False,crypto,50.0,416100.0
+core-scientific-grand-forks,Core Scientific Grand Forks,North Dakota,Grand Forks,47.90964296602304,-97.11151765887791,2021.0,100.0,,False,crypto,100.0,832200.0
+bitdeer-wenatchee-washington,Bitdeer Washington,Washington,East Wenatchee,47.41402423123076,-120.2106899118301,2018.0,13.0,,False,crypto,13.0,108186.0
+core-scientific,Core Scientific Dalton,Georgia,"Dalton, GA",34.7131193,-84.9514028,2018.0,195.0,,False,crypto,195.0,1622790.0
+core-scientific-auburn,Core Scientific Auburn,Alabama,Auburn,32.60092892087178,-85.512853246259,2024.0,4.0,40000.0,False,crypto,4.0,33288.0
+core-scientific-muskogee,Core Scientific Muskogee,Oklahoma,Muskogee,35.78535393717777,-95.30150992141871,2026.0,70.0,,False,crypto,70.0,582540.0
+bitdeer-massillon,Bitdeer Massillon,Ohio,Massillon,40.7708731322956,-81.53972307975927,2026.0,221.0,,False,crypto,221.0,1839162.0
+core-scientific-calvert-city,Core Scientific Calvert City,Kentucky,Calvert City,37.05044666481538,-88.39390071822639,2019.0,150.0,,False,crypto,150.0,1248300.0
+bitdeer-rockdale-texas,Bitdeer Texas,Texas,Rockdale,30.56611915480493,-97.07123896608356,2019.0,563.0,,False,crypto,563.0,4685286.0
+core-scientific-austin,Core Scientific Austin,Texas,Austin,30.2693316,-97.6659928,2024.0,16.0,118000.0,False,crypto,16.0,133152.0
+riot-patforms-rockdale,Riot Patforms Rockdale,Texas,Thorndale,30.57439586542036,-97.08070354716374,2023.0,700.0,,False,crypto,700.0,5825400.0
+core-scientific-denton,Core Scientific Denton,Texas,Denton,33.21317878448416,-97.21073906115087,2022.0,125.0,,False,crypto,125.0,1040250.0
+riot-platforms-corsicana,Riot Platforms Corsicana,Texas,Corsicana,31.96760867943397,-96.51371067756612,2024.0,1000.0,,False,crypto,1000.0,8322000.0
+cipher-stingray,Cipher Stingray,Texas,Andrews,32.37483129530126,-102.9887929268007,2026.0,100.0,,False,crypto,100.0,832200.0
+cipher-black-pearl,Cipher Black Pearl,Texas,Wink,31.68868617666143,-103.0696710305582,2025.0,300.0,,False,crypto,300.0,2496600.0
+core-scientific-pecos,Core Scientific Pecos,Texas,Pecos,31.5417384,-103.818692,2022.0,234.0,,False,crypto,234.0,1947348.0
+crusoe-abilene-building-8,Crusoe Abilene - Building 8,Texas,Abilene,32.504135,-99.777719,2026.0,,,False,crypto,50.0,416100.0
+crusoe-abilene-building-1,Crusoe Abilene - Building 1,Texas,Abilene,32.505944,-99.781582,2025.0,,,False,crypto,50.0,416100.0
+crusoe-abilene-building-6,Crusoe Abilene - Building 6,Texas,Abilene,32.504135,-99.778841,2026.0,,,False,crypto,50.0,416100.0
+crusoe-abilene-building-7,Crusoe Abilene - Building 7,Texas,Abilene,32.505944,-99.777719,2026.0,,,False,crypto,50.0,416100.0
+crusoe-abilene-building-5,Crusoe Abilene - Building 5,Texas,Abilene,32.505944,-99.778841,2026.0,,,False,crypto,50.0,416100.0
+crusoe-abilene-building-2,Crusoe Abilene - Building 2,Texas,Abilene,32.504135,-99.781582,2025.0,,,False,crypto,50.0,416100.0
+crusoe-abilene-building-3,Crusoe Abilene - Building 3,Texas,Abilene,32.505944,-99.780493,2026.0,,,False,crypto,50.0,416100.0
+crusoe-abilene-building-4,Crusoe Abilene - Building 4,Texas,Abilene,32.504135,-99.780493,2026.0,,,False,crypto,50.0,416100.0
+bitdeer-knoxville-tennessee,Bitdeer Tennessee,Tennessee,Knoxville,35.9420515,-83.8352896,2020.0,86.0,,False,crypto,86.0,715692.0

@@ -1,7 +1,11 @@
 {
-  "total_datacenters": 4591,
-  "total_capacity_gw": 213.4,
-  "total_energy_twh": 1369.3,
-  "max_energy_twh": 288.3,
-  "max_dc_count": 686
+  "total_dcs": 621,
+  "small_dcs": 402,
+  "decent_dcs": 147,
+  "crypto_dcs": 26,
+  "ai_dcs": 46,
+  "total_capacity_mw": 14990.3,
+  "total_energy_twh": 112.3,
+  "crypto_energy_twh": 36.88,
+  "ai_energy_twh": 43.25
 }

@@ -1,0 +1,13 @@
+{
+  "total_dcs": 621,
+  "small_dcs": 402,
+  "decent_dcs": 147,
+  "crypto_dcs": 26,
+  "big_ai_dcs": 46,
+  "total_capacity_mw": 14990.347,
+  "crypto_capacity_mw": 4432.0,
+  "ai_capacity_mw": 6128.900000000001,
+  "total_energy_twh": 112.3018614,
+  "crypto_energy_twh": 36.883104,
+  "ai_energy_twh": 43.2455184
+}
