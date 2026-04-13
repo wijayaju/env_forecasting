@@ -28,7 +28,6 @@ env_forecasting/
 │   ├── parse_city_links.py     # Extracts city URLs
 │   ├── parse_specs_to_csv.py   # Converts specs to CSV
 │   ├── extract_datacenters.py  # Extracts DC data from pages
-│   ├── extract_huc12.py        # Extracts HUC12 watershed data
 │   ├── extract_specs.py        # Extracts DC specifications
 │   └── merge_datacenter_specs.py # Merges DC specs with locations
 │
@@ -55,8 +54,7 @@ env_forecasting/
 │   │   │   └── state/         # Per-state HTML files
 │   │   │       └── {state}/city/{city}/dc/{dc-name}/
 │   │   └── csv/               # Initial CSVs
-│   │       ├── data_centers.csv
-│   │       └── huc_12.csv
+│   │       └── data_centers.csv
 │   ├── processed/              # Cleaned & processed data
 │   │   ├── datacenter_specs.csv
 │   │   ├── datacenter_enriched.csv
@@ -182,10 +180,9 @@ python enrich_and_train_ml.py
 This script:
 1. Loads raw datacenter data
 2. Geocodes missing coordinates
-3. Assigns HUC12 watershed codes
-4. Categorizes DCs (AI, Crypto, Enterprise, Colocation)
-5. Calculates physics-based energy estimates
-6. Creates training features for ML models
+3. Categorizes DCs (AI, Crypto, Enterprise, Colocation)
+4. Calculates physics-based energy estimates
+5. Creates training features for ML models
 
 ### Physics-Based Energy Model
 
@@ -326,7 +323,6 @@ GradientBoostingRegressor(
 
 1. **Data Center Locations**: [datacentermap.com](https://www.datacentermap.com/)
 2. **Electricity Data**: [EIA-861](https://www.eia.gov/electricity/data/eia861/)
-3. **Watershed Data**: [USGS HUC12](https://water.usgs.gov/GIS/huc.html)
 
 ---
 
@@ -348,4 +344,4 @@ This project is for educational purposes (AI Club Advanced Project).
 
 ## 👥 Authors
 
-- University of Texas - Austin AI Club
+- Michigan State University - AI Club
