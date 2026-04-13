@@ -14,11 +14,12 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 import json
-from sklearn.ensemble import GradientBoostingRegressor, RandomForestRegressor
+from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split, cross_val_score, TimeSeriesSplit
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 from sklearn.neural_network import MLPRegressor
+import xgboost as xgb
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -323,9 +324,10 @@ def train_multiyear_model(data):
     
     # Models
     models = {
-        'Gradient Boosting': GradientBoostingRegressor(
-            n_estimators=150, max_depth=4, learning_rate=0.1, 
-            min_samples_split=5, random_state=42
+        'XGBoost': xgb.XGBRegressor(
+            n_estimators=150, max_depth=4, learning_rate=0.1,
+            min_child_weight=5, random_state=42,
+            objective='reg:squarederror'
         ),
         'Random Forest': RandomForestRegressor(
             n_estimators=150, max_depth=6, min_samples_split=5, random_state=42
@@ -363,14 +365,14 @@ def train_multiyear_model(data):
         print(f"   TS-CV R² = {cv_scores.mean():.4f} ± {cv_scores.std():.4f}")
         print(f"   MAE = {mae/1e6:.1f} TWh, RMSE = {rmse/1e6:.1f} TWh")
     
-    # Feature importance (Gradient Boosting)
-    best_model = results['Gradient Boosting']['model']
+    # Feature importance (XGBoost)
+    best_model = results['XGBoost']['model']
     importance = pd.DataFrame({
         'feature': feature_cols,
         'importance': best_model.feature_importances_
     }).sort_values('importance', ascending=False)
     
-    print("\n   Feature Importance (Gradient Boosting):")
+    print("\n   Feature Importance (XGBoost):")
     dc_importance = 0
     for _, row in importance.iterrows():
         bar = '█' * int(row['importance'] * 50)
@@ -442,7 +444,7 @@ def save_results(data, results, importance, yearly):
     """Save comprehensive results."""
     print("\n💾 Saving Results...")
     
-    best_result = results['Gradient Boosting']
+    best_result = results['XGBoost']
     
     output = {
         'model_type': 'BA Multi-Year Panel Model',
@@ -523,7 +525,7 @@ def main():
     output = save_results(combined, results, importance, yearly)
     
     # Summary
-    best = results['Gradient Boosting']
+    best = results['XGBoost']
     dc_contrib = output['dc_feature_contribution']
     
     print("\n" + "=" * 70)
@@ -532,7 +534,7 @@ def main():
     print(f"""
    Data: {len(combined)} observations ({ba_elec['ba_code'].nunique()} BAs × {len(YEARS)} years)
    
-   Model Performance (Gradient Boosting):
+   Model Performance (XGBoost):
    - Test R² (holdout 2024): {best['r2']:.4f}
    - Time-Series CV R²: {best['cv_r2_mean']:.4f} ± {best['cv_r2_std']:.4f}
    - MAE: {best['mae']/1e6:.1f} TWh

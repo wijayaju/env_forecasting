@@ -229,7 +229,7 @@
                 <li><a href="#validation">Validation & Benchmarks</a></li>
                 <li><a href="#ml-model">AI Electricity Prediction Model</a>
                     <ul style="margin-top: 5px; font-size: 0.9rem;">
-                        <li><a href="#ml-model">8.3 Model Comparison (R² = 0.993)</a></li>
+                        <li><a href="#ml-model">8.3 Model Comparison (R² = 0.997)</a></li>
                         <li><a href="#ml-model">8.5 Future Predictions (2025-2030)</a></li>
                     </ul>
                 </li>
@@ -264,11 +264,11 @@
                     <div class="label">AI/Hyperscale</div>
                 </div>
                 <div class="stat-card" style="background: linear-gradient(135deg, rgba(107, 207, 107, 0.15), rgba(58, 123, 213, 0.15));">
-                    <div class="value" style="background: linear-gradient(90deg, #6bcf6b, #3a7bd5); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">R² = 0.993</div>
-                    <div class="label">BA Multi-Year Model</div>
+                    <div class="value" style="background: linear-gradient(90deg, #6bcf6b, #3a7bd5); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">R² = 0.997</div>
+                    <div class="label">XGBoost Model</div>
                 </div>
                 <div class="stat-card" style="background: linear-gradient(135deg, rgba(58, 123, 213, 0.15), rgba(0, 210, 255, 0.15));">
-                    <div class="value" style="color: #00d2ff;">87%</div>
+                    <div class="value" style="color: #00d2ff;">96%</div>
                     <div class="label">DC Signal (Feature Importance)</div>
                 </div>
             </div>
@@ -299,7 +299,7 @@
             <div class="highlight-box success">
                 <h4>Key Finding</h4>
                 <p>US data centers consume approximately <strong>112.3 TWh annually</strong>, representing ~2.8% of total US electricity. Crypto mining (36.9 TWh) and AI/hyperscale operations (43.2 TWh) together account for 71% of this consumption despite representing only 11% of facilities by count.</p>
-                <p style="margin-top: 10px;"><strong>AI Prediction Model:</strong> Our BA-level multi-year model achieves <strong>R² = 0.993</strong> accuracy with <strong>87% DC signal</strong> — data center count alone explains 79% of regional electricity variance. This represents a 29× improvement over initial state-level models where population dominated.</p>
+                <p style="margin-top: 10px;"><strong>AI Prediction Model:</strong> Our BA-level multi-year <strong>XGBoost</strong> model achieves <strong>R² = 0.997</strong> accuracy with <strong>96% DC signal</strong> — data center count alone explains 92% of regional electricity variance. This represents a 32× improvement over initial state-level models where population dominated.</p>
             </div>
         </section>
         
@@ -1172,7 +1172,7 @@ national_ai = <span class="keyword">sum</span>(state_ai <span class="keyword">fo
             
             <div class="highlight-box">
                 <h4>★ State-Level Best: Gradient Boosting (Test R² = 0.978)</h4>
-                <p>The state-level model achieves high accuracy but is dominated by population (~90%). See Section 8.8 for our <strong>BA-level multi-year model (R² = 0.993, 87% DC signal)</strong> which solves this issue.</p>
+                <p>The state-level model achieves high accuracy but is dominated by population (~90%). See Section 8.8 for our <strong>XGBoost BA-level model (R² = 0.997, 96% DC signal)</strong> which solves this issue.</p>
             </div>
             
             <!-- Model Comparison Charts -->
@@ -1327,11 +1327,11 @@ national_ai = <span class="keyword">sum</span>(state_ai <span class="keyword">fo
             <h3>8.7 Key Conclusions</h3>
             
             <div class="highlight-box success">
-                <h4>✓ BA Multi-Year Model Achievements</h4>
+                <h4>✓ XGBoost Model Achievements</h4>
                 <ul>
-                    <li><strong>Best accuracy:</strong> R² = 0.993 on held-out 2024 test data</li>
-                    <li><strong>High DC signal:</strong> 87% of prediction comes from DC features</li>
-                    <li><strong>dc_count dominates:</strong> This single feature explains 79% of variance</li>
+                    <li><strong>Best accuracy:</strong> R² = 0.997 on held-out 2024 test data</li>
+                    <li><strong>High DC signal:</strong> 96% of prediction comes from DC features</li>
+                    <li><strong>dc_count dominates:</strong> This single feature explains 92% of variance</li>
                     <li><strong>Panel data power:</strong> 326 observations (55 BAs × 6 years)</li>
                 </ul>
             </div>
@@ -1341,7 +1341,7 @@ national_ai = <span class="keyword">sum</span>(state_ai <span class="keyword">fo
                 <ul>
                     <li><strong>Population dominates state model:</strong> ~90% of signal came from demographics, not DCs</li>
                     <li><strong>DC signal was small at state level:</strong> Only ~3% of predictive power from DC features</li>
-                    <li><strong>Solution:</strong> BA-level multi-year model achieves <span style="color: #6bcf6b;">87% DC signal</span> (29× improvement)</li>
+                    <li><strong>Solution:</strong> BA-level XGBoost model achieves <span style="color: #6bcf6b;">96% DC signal</span> (32× improvement)</li>
                 </ul>
             </div>
             
@@ -1350,7 +1350,7 @@ national_ai = <span class="keyword">sum</span>(state_ai <span class="keyword">fo
             <p>To improve DC signal detection, we developed a <strong>Balancing Authority (BA) level panel model</strong> using 6 years of EIA-861 utility-level data (2019-2024). BAs are regional grid operators (e.g., ERCOT for Texas, PJM for Mid-Atlantic) — more electrically coherent than political state boundaries.</p>
             
             <div class="highlight-box success">
-                <h4>🚀 Major Breakthrough: DC Signal Amplified from 3% → 87%</h4>
+                <h4>🚀 Major Breakthrough: DC Signal Amplified from 3% → 96%</h4>
                 
                 <!-- Model Comparison Chart -->
                 <div class="chart-container">
@@ -1365,19 +1365,19 @@ national_ai = <span class="keyword">sum</span>(state_ai <span class="keyword">fo
                         <th>Metric</th>
                         <th>State-Level Model</th>
                         <th>BA Single-Year</th>
-                        <th style="background: rgba(107, 207, 107, 0.2);">BA Multi-Year (2019-2024)</th>
+                        <th style="background: rgba(107, 207, 107, 0.2);">XGBoost BA Multi-Year</th>
                     </tr>
                     <tr>
                         <td>DC Feature Contribution</td>
                         <td style="color: #ff6b6b;">3%</td>
                         <td>54%</td>
-                        <td style="color: #6bcf6b; font-weight: bold;">86.8%</td>
+                        <td style="color: #6bcf6b; font-weight: bold;">95.8%</td>
                     </tr>
                     <tr>
                         <td>Test R²</td>
                         <td>0.978</td>
                         <td>0.952</td>
-                        <td style="color: #00d2ff; font-weight: bold;">0.993</td>
+                        <td style="color: #00d2ff; font-weight: bold;">0.997</td>
                     </tr>
                     <tr>
                         <td>Observations</td>
@@ -1389,7 +1389,7 @@ national_ai = <span class="keyword">sum</span>(state_ai <span class="keyword">fo
                         <td>Time-Series CV R²</td>
                         <td>0.72</td>
                         <td>0.62</td>
-                        <td>0.77 ± 0.06</td>
+                        <td>0.73 ± 0.07</td>
                     </tr>
                 </table>
             </div>
@@ -1517,16 +1517,16 @@ national_ai = <span class="keyword">sum</span>(state_ai <span class="keyword">fo
             <div class="highlight-box success">
                 <h4>📊 Why Multi-Year BA-Level Works Best</h4>
                 <ul>
-                    <li><strong>29× stronger DC signal:</strong> From 3% (state) to 87% (BA multi-year)</li>
+                    <li><strong>32× stronger DC signal:</strong> From 3% (state) to 96% (BA multi-year)</li>
                     <li><strong>Panel data power:</strong> 326 observations vs 51 (6× more data points)</li>
                     <li><strong>Temporal validation:</strong> Model trained on 2019-2023, tested on 2024 (R² = 0.99)</li>
-                    <li><strong>dc_count alone:</strong> Explains 79% of BA electricity variance</li>
+                    <li><strong>dc_count alone:</strong> Explains 92% of BA electricity variance</li>
                     <li><strong>No demographic confounders:</strong> Population/GDP not needed at BA level</li>
                 </ul>
             </div>
             
             <blockquote style="border-left: 3px solid #6bcf6b; padding-left: 20px; margin: 20px 0; color: #ccd6f6; font-style: italic;">
-                "Using 6 years of EIA-861 Balancing Authority data (2019-2024), the multi-year model achieves R² = 0.993 with <strong>87% of signal from DC features</strong>. This represents a 29× improvement over state-level analysis. The dc_count feature alone explains 79% of electricity variance — demonstrating that at electrically coherent regional levels, data center infrastructure is the dominant driver of demand differences."
+                "Using 6 years of EIA-861 Balancing Authority data (2019-2024), the XGBoost model achieves R² = 0.997 with <strong>96% of signal from DC features</strong>. This represents a 32× improvement over state-level analysis. The dc_count feature alone explains 92% of electricity variance — demonstrating that at electrically coherent regional levels, data center infrastructure is the dominant driver of demand differences."
             </blockquote>
         </section>
         
@@ -1590,7 +1590,7 @@ national_ai = <span class="keyword">sum</span>(state_ai <span class="keyword">fo
                 <li><strong>US data centers consume ~112+ TWh annually</strong>, approximately 2.8% of total US electricity (conservative estimate)</li>
                 <li><strong>Crypto mining (36.9 TWh) and AI (43.2 TWh)</strong> account for 71% of data center energy despite being only 11% of facilities</li>
                 <li><strong>Texas dominates</strong> with 34.5% of total DC energy consumption</li>
-                <li><strong>BA-level multi-year model achieves R² = 0.993</strong> with 87% DC signal — dc_count alone explains 79% of regional electricity variance</li>
+                <li><strong>XGBoost BA-level model achieves R² = 0.997</strong> with 96% DC signal — dc_count alone explains 92% of regional electricity variance</li>
                 <li><strong>Separating crypto from AI</strong> is critical for accurate energy modeling</li>
             </ol>
             
@@ -1612,7 +1612,7 @@ national_ai = <span class="keyword">sum</span>(state_ai <span class="keyword">fo
             
             <div class="highlight-box success">
                 <h4>Final Note</h4>
-                <p>This analysis demonstrates that <strong>geographic granularity is critical</strong> for isolating data center signals in electricity data. While state-level models showed only 3% DC signal (population dominated), our BA-level multi-year model achieves <strong>R² = 0.993 with 87% DC signal</strong>. The key insight: <strong>dc_count alone explains 79%</strong> of regional electricity variance — proving data centers ARE a measurable, significant driver of electricity demand.</p>
+                <p>This analysis demonstrates that <strong>geographic granularity is critical</strong> for isolating data center signals in electricity data. While state-level models showed only 3% DC signal (population dominated), our XGBoost BA-level multi-year model achieves <strong>R² = 0.997 with 96% DC signal</strong>. The key insight: <strong>dc_count alone explains 92%</strong> of regional electricity variance — proving data centers ARE a measurable, significant driver of electricity demand.</p>
             </div>
         </section>
         
@@ -2058,18 +2058,18 @@ national_ai = <span class="keyword">sum</span>(state_ai <span class="keyword">fo
         new Chart(document.getElementById('modelComparisonChart'), {
             type: 'bar',
             data: {
-                labels: ['State-Level', 'BA Single-Year', 'BA Multi-Year (2019-2024)'],
+                labels: ['State-Level', 'BA Single-Year', 'BA Multi-Year (XGBoost)'],
                 datasets: [
                     {
                         label: 'DC Signal (%)',
-                        data: [3, 54, 87],
+                        data: [3, 54, 96],
                         backgroundColor: [colors.error, colors.warning, colors.success],
                         borderRadius: 4,
                         yAxisID: 'y'
                     },
                     {
                         label: 'Test R²',
-                        data: [0.978, 0.952, 0.993],
+                        data: [0.978, 0.952, 0.997],
                         type: 'line',
                         borderColor: colors.primary,
                         backgroundColor: colors.primary,

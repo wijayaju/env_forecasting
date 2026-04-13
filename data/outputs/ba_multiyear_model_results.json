@@ -12,12 +12,12 @@
   "n_observations": 326,
   "n_balancing_authorities": 55,
   "models": {
-    "Gradient Boosting": {
-      "test_r2": 0.9927,
-      "cv_r2": 0.7652,
-      "cv_r2_std": 0.0575,
-      "mae_twh": 7.09,
-      "rmse_twh": 15.61
+    "XGBoost": {
+      "test_r2": 0.9966,
+      "cv_r2": 0.7344,
+      "cv_r2_std": 0.0743,
+      "mae_twh": 6.71,
+      "rmse_twh": 10.59
     },
     "Random Forest": {
       "test_r2": 0.9917,
@@ -37,54 +37,54 @@
   "feature_importance": [
     {
       "feature": "dc_count",
-      "importance": 0.7884946944023994
+      "importance": 0.9175940155982971
     },
     {
       "feature": "utility_count",
-      "importance": 0.12660010932398028
+      "importance": 0.03989249840378761
     },
     {
       "feature": "total_capacity_mw",
-      "importance": 0.03024738273329587
-    },
-    {
-      "feature": "max_capacity_mw",
-      "importance": 0.025784015187119907
-    },
-    {
-      "feature": "hyperscale_count",
-      "importance": 0.018504152186188973
-    },
-    {
-      "feature": "ci_ratio",
-      "importance": 0.005662316551668115
-    },
-    {
-      "feature": "avg_capacity_mw",
-      "importance": 0.001213962097737906
-    },
-    {
-      "feature": "hyperscale_ratio",
-      "importance": 0.0011826659310697524
-    },
-    {
-      "feature": "crypto_ratio",
-      "importance": 0.0011115277829952797
-    },
-    {
-      "feature": "big_ai_count",
-      "importance": 0.0006891247269322481
+      "importance": 0.018653253093361855
     },
     {
       "feature": "crypto_count",
-      "importance": 0.00041343202339150383
+      "importance": 0.01522783376276493
+    },
+    {
+      "feature": "max_capacity_mw",
+      "importance": 0.00433727353811264
+    },
+    {
+      "feature": "crypto_ratio",
+      "importance": 0.0020898834336549044
+    },
+    {
+      "feature": "ci_ratio",
+      "importance": 0.0011054788483306766
     },
     {
       "feature": "year_rel",
-      "importance": 9.661705322067103e-05
+      "importance": 0.0005356231704354286
+    },
+    {
+      "feature": "avg_capacity_mw",
+      "importance": 0.0004309202777221799
+    },
+    {
+      "feature": "hyperscale_ratio",
+      "importance": 0.00013332083472050726
+    },
+    {
+      "feature": "big_ai_count",
+      "importance": 0.0
+    },
+    {
+      "feature": "hyperscale_count",
+      "importance": 0.0
     }
   ],
-  "dc_feature_contribution": 0.8676409570711308,
+  "dc_feature_contribution": 0.9584665298461914,
   "yearly_trends": [
     {
       "year": 2019,

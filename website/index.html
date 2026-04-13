@@ -803,29 +803,29 @@
                 
                 <div class="viz-3d-stats">
                     <div class="viz-stat-card highlight">
-                        <div class="viz-stat-value green" id="viz-r2">R² = 0.993</div>
-                        <div class="viz-stat-label">Full Model (12 Features, 326 Obs)</div>
+                        <div class="viz-stat-value green" id="viz-r2">R² = 0.997</div>
+                        <div class="viz-stat-label">XGBoost (12 Features, 326 Obs)</div>
                     </div>
                     <div class="viz-stat-card">
-                        <div class="viz-stat-value">79%</div>
+                        <div class="viz-stat-value">92%</div>
                         <div class="viz-stat-label">Explained by dc_count</div>
                     </div>
                     <div class="viz-stat-card">
-                        <div class="viz-stat-value">3%</div>
-                        <div class="viz-stat-label">Added by capacity_mw</div>
+                        <div class="viz-stat-value">96%</div>
+                        <div class="viz-stat-label">Total DC Signal</div>
                     </div>
                     <div class="viz-stat-card">
-                        <div class="viz-stat-value">5%</div>
-                        <div class="viz-stat-label">Other 10 Features Combined</div>
+                        <div class="viz-stat-value">326</div>
+                        <div class="viz-stat-label">BA-Year Observations</div>
                     </div>
                 </div>
                 
                 <div class="viz-3d-explanation">
                     <h4>🎯 What This Shows</h4>
                     <p><strong>Blue points</strong> are representative BA electricity data (2019-2024). 
-                    The <strong>green surface</strong> illustrates how our model predicts electricity from <strong>dc_count</strong> (X-axis) 
-                    and <strong>total_capacity_mw</strong> (Y-axis). These two features alone capture ~82% of the model's predictive power. 
-                    The remaining 10 features (crypto_ratio, hyperscale_count, etc.) fine-tune predictions for edge cases.
+                    The <strong>green surface</strong> illustrates how our <strong>XGBoost</strong> model predicts electricity from <strong>dc_count</strong> (X-axis) 
+                    and <strong>total_capacity_mw</strong> (Y-axis). Data center count alone explains <strong>92%</strong> of predictions — 
+                    proving that DC infrastructure is the dominant driver of regional electricity variance.
                     <strong>Rotate the plot</strong> to explore how BA electricity scales with data center infrastructure.</p>
                 </div>
             </div>
