@@ -1,13 +1,14 @@
 # Data Center Energy Impact Analysis - Makefile
 # Run: make <target>
 
-.PHONY: help install website model scrape train all clean
+.PHONY: help install website model scrape train all clean start
 
 # Default target
 help:
 	@echo "╔═══════════════════════════════════════════════════════════════╗"
 	@echo "║     Data Center Energy Impact Analysis - Quick Commands      ║"
 	@echo "╠═══════════════════════════════════════════════════════════════╣"
+	@echo "║  make start       ONE COMMAND - install deps + start website ║"
 	@echo "║  make install     Install all Python dependencies            ║"
 	@echo "║  make website     Start local website (http://localhost:8080)║"
 	@echo "║  make model       Run the XGBoost prediction model           ║"
@@ -16,6 +17,14 @@ help:
 	@echo "║  make all         Run full pipeline (scrape → train → web)   ║"
 	@echo "║  make clean       Remove generated files                     ║"
 	@echo "╚═══════════════════════════════════════════════════════════════╝"
+
+# ONE COMMAND TO RULE THEM ALL
+start: install
+	@echo ""
+	@echo "🌐 Starting local server at http://localhost:8080"
+	@echo "   Press Ctrl+C to stop"
+	@echo ""
+	cd website && python3 -m http.server 8080
 
 # Install dependencies
 install:

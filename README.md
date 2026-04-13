@@ -88,28 +88,18 @@ env_forecasting/
 ## ⚡ Quick Start (For Teammates)
 
 ```bash
-# Clone and install
+# Clone and run with ONE COMMAND
 git clone https://github.com/wijayaju/env_forecasting.git
 cd env_forecasting
-make install
-
-# Test that dependencies work
-make test
-
-# View the website (easiest - no scripts needed)
-make website
-# Then open http://localhost:8080 in your browser
-
-# Run the XGBoost model
-make model
-
-# See all available commands
-make help
+make start
 ```
 
-### Available Commands
+That's it! Opens at http://localhost:8080
+
+### Other Commands
 | Command | What it does |
 |---------|-------------|
+| `make start` | **ONE COMMAND** - installs deps + starts website |
 | `make install` | Install all Python dependencies |
 | `make website` | Start local website at http://localhost:8080 |
 | `make model` | Run the XGBoost prediction model |
@@ -257,8 +247,8 @@ python ba_multiyear_predictor.py
 ```
 - Uses 6 years of BA-level data (2019-2024)
 - 326 observations (55 BAs × 6 years)
-- R² = 0.993, **87% DC signal**
-- Key insight: dc_count explains 79% of BA electricity variance
+- R² = 0.997, **96% DC signal** (XGBoost)
+- Key insight: dc_count explains 92% of BA electricity variance
 
 ### Model Results Summary
 
@@ -266,11 +256,7 @@ python ba_multiyear_predictor.py
 |-------|-----|-----------|--------------|
 | State-Level | 0.978 | 3% | 51 |
 | BA Single-Year | 0.952 | 54% | 54 |
-| **BA Multi-Year** | **0.993** | **87%** | 326 |
-
----
-
-## 📊 EIA Data Integration
+| **BA Multi-Year (XGBoost)** | **0.997** | **96%** | 326 |
 
 The project uses EIA-861 Form data for ground-truth electricity consumption.
 
@@ -324,10 +310,10 @@ Creates `state_data.json` with aggregated statistics per state.
 - **Top State**: Virginia (highest concentration, 500+ DCs)
 
 ### Model Performance
-- **Best Model**: Gradient Boosted Regressor (BA Multi-Year)
-- **Cross-Validation R²**: 0.991 ± 0.015
-- **Test Set R²**: 0.993
-- **Feature Importance**: dc_count (79%), total_dc_mw (8%)
+- **Best Model**: XGBoost Regressor (BA Multi-Year)
+- **Cross-Validation R²**: 0.73 ± 0.07
+- **Test Set R²**: 0.997
+- **Feature Importance**: dc_count (92%), utility_count (4%)
 
 ---
 
@@ -343,12 +329,15 @@ MAX_RATE_LIMIT_RETRIES = 10 # Max retries before giving up
 
 ### Model Parameters
 ```python
-# Gradient Boosting Regressor
-GradientBoostingRegressor(
-    n_estimators=200,
-    max_depth=6,
-    learning_rate=0.05,
-    min_samples_split=5,
+# XGBoost Regressor
+import xgboost as xgb
+
+xgb.XGBRegressor(
+    n_estimators=150,
+    max_depth=4,
+    learning_rate=0.1,
+    min_child_weight=5,
+    objective='reg:squarederror',
     random_state=42
 )
 ```
