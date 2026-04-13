@@ -24,6 +24,8 @@ start: install
 	@echo "🌐 Starting local server at http://localhost:8080"
 	@echo "   Press Ctrl+C to stop"
 	@echo ""
+	@pkill -f "http.server 8080" 2>/dev/null || true
+	@sleep 1
 	cd website && python3 -m http.server 8080
 
 # Install dependencies
@@ -36,6 +38,8 @@ install:
 website:
 	@echo "🌐 Starting local server at http://localhost:8080"
 	@echo "   Press Ctrl+C to stop"
+	@pkill -f "http.server 8080" 2>/dev/null || true
+	@sleep 1
 	cd website && python3 -m http.server 8080
 
 # Run the ML model (XGBoost BA-level predictor)
