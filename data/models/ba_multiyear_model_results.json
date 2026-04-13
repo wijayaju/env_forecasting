@@ -1,0 +1,251 @@
+{
+  "model_type": "BA Multi-Year Panel Model",
+  "data_source": "EIA-861 2019-2024",
+  "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "n_observations": 326,
+  "n_balancing_authorities": 55,
+  "models": {
+    "Gradient Boosting": {
+      "test_r2": 0.9927,
+      "cv_r2": 0.7652,
+      "cv_r2_std": 0.0575,
+      "mae_twh": 7.09,
+      "rmse_twh": 15.61
+    },
+    "Random Forest": {
+      "test_r2": 0.9917,
+      "cv_r2": 0.7671,
+      "cv_r2_std": 0.0639,
+      "mae_twh": 10.14,
+      "rmse_twh": 16.66
+    },
+    "Neural Network": {
+      "test_r2": -0.2137,
+      "cv_r2": -0.281,
+      "cv_r2_std": 0.1087,
+      "mae_twh": 84.46,
+      "rmse_twh": 201.28
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "dc_count",
+      "importance": 0.7884946944023994
+    },
+    {
+      "feature": "utility_count",
+      "importance": 0.12660010932398028
+    },
+    {
+      "feature": "total_capacity_mw",
+      "importance": 0.03024738273329587
+    },
+    {
+      "feature": "max_capacity_mw",
+      "importance": 0.025784015187119907
+    },
+    {
+      "feature": "hyperscale_count",
+      "importance": 0.018504152186188973
+    },
+    {
+      "feature": "ci_ratio",
+      "importance": 0.005662316551668115
+    },
+    {
+      "feature": "avg_capacity_mw",
+      "importance": 0.001213962097737906
+    },
+    {
+      "feature": "hyperscale_ratio",
+      "importance": 0.0011826659310697524
+    },
+    {
+      "feature": "crypto_ratio",
+      "importance": 0.0011115277829952797
+    },
+    {
+      "feature": "big_ai_count",
+      "importance": 0.0006891247269322481
+    },
+    {
+      "feature": "crypto_count",
+      "importance": 0.00041343202339150383
+    },
+    {
+      "feature": "year_rel",
+      "importance": 9.661705322067103e-05
+    }
+  ],
+  "dc_feature_contribution": 0.8676409570711308,
+  "yearly_trends": [
+    {
+      "year": 2019,
+      "total_mwh": 4385587497.0,
+      "dc_count": 4282.0,
+      "total_capacity_mw": 6335.0,
+      "total_energy_mwh": 46520192.0,
+      "ba_code": 55,
+      "dc_share": 1.0607516560055534
+    },
+    {
+      "year": 2020,
+      "total_mwh": 4267852007.0,
+      "dc_count": 4295.0,
+      "total_capacity_mw": 6692.3,
+      "total_energy_mwh": 49175304.0,
+      "ba_code": 55,
+      "dc_share": 1.152226082801001
+    },
+    {
+      "year": 2021,
+      "total_mwh": 4373815158.0,
+      "dc_count": 4310.0,
+      "total_capacity_mw": 7439.3,
+      "total_energy_mwh": 54618558.0,
+      "ba_code": 54,
+      "dc_share": 1.248762373967702
+    },
+    {
+      "year": 2022,
+      "total_mwh": 4484431971.0,
+      "dc_count": 4313.0,
+      "total_capacity_mw": 7800.3,
+      "total_energy_mwh": 57620156.0,
+      "ba_code": 54,
+      "dc_share": 1.2848930783791346
+    },
+    {
+      "year": 2023,
+      "total_mwh": 4429057667.0,
+      "dc_count": 4322.0,
+      "total_capacity_mw": 8649.5,
+      "total_energy_mwh": 64512636.0,
+      "ba_code": 54,
+      "dc_share": 1.4565770159343467
+    },
+    {
+      "year": 2024,
+      "total_mwh": 4561029922.0,
+      "dc_count": 4338.0,
+      "total_capacity_mw": 10044.5,
+      "total_energy_mwh": 75715480.0,
+      "ba_code": 54,
+      "dc_share": 1.6600522534348765
+    }
+  ],
+  "top_bas_2024": [
+    {
+      "ba_code": "ERCO",
+      "dc_count": 433,
+      "capacity_mw": 3660.4,
+      "electricity_twh": 443.9,
+      "dc_share_pct": 6.59
+    },
+    {
+      "ba_code": "PACE",
+      "dc_count": 47,
+      "capacity_mw": 262.0,
+      "electricity_twh": 47.74,
+      "dc_share_pct": 3.9
+    },
+    {
+      "ba_code": "BPAT",
+      "dc_count": 293,
+      "capacity_mw": 263.7,
+      "electricity_twh": 58.32,
+      "dc_share_pct": 3.3
+    },
+    {
+      "ba_code": "PJM",
+      "dc_count": 1192,
+      "capacity_mw": 2692.9,
+      "electricity_twh": 1093.26,
+      "dc_share_pct": 1.76
+    },
+    {
+      "ba_code": "DUK",
+      "dc_count": 144,
+      "capacity_mw": 211.4,
+      "electricity_twh": 102.56,
+      "dc_share_pct": 1.6
+    },
+    {
+      "ba_code": "TVA",
+      "dc_count": 99,
+      "capacity_mw": 266.4,
+      "electricity_twh": 158.35,
+      "dc_share_pct": 1.38
+    },
+    {
+      "ba_code": "SOCO",
+      "dc_count": 259,
+      "capacity_mw": 386.3,
+      "electricity_twh": 223.7,
+      "dc_share_pct": 1.35
+    },
+    {
+      "ba_code": "PSCO",
+      "dc_count": 60,
+      "capacity_mw": 68.9,
+      "electricity_twh": 39.38,
+      "dc_share_pct": 1.28
+    },
+    {
+      "ba_code": "NYIS",
+      "dc_count": 153,
+      "capacity_mw": 361.9,
+      "electricity_twh": 202.37,
+      "dc_share_pct": 1.27
+    },
+    {
+      "ba_code": "MISO",
+      "dc_count": 857,
+      "capacity_mw": 1160.9,
+      "electricity_twh": 666.02,
+      "dc_share_pct": 1.26
+    },
+    {
+      "ba_code": "CISO",
+      "dc_count": 328,
+      "capacity_mw": 437.1,
+      "electricity_twh": 285.29,
+      "dc_share_pct": 1.1
+    },
+    {
+      "ba_code": "FPL",
+      "dc_count": 127,
+      "capacity_mw": 112.0,
+      "electricity_twh": 136.13,
+      "dc_share_pct": 0.59
+    },
+    {
+      "ba_code": "HECO",
+      "dc_count": 9,
+      "capacity_mw": 5.2,
+      "electricity_twh": 6.32,
+      "dc_share_pct": 0.58
+    },
+    {
+      "ba_code": "SWPP",
+      "dc_count": 119,
+      "capacity_mw": 104.3,
+      "electricity_twh": 261.98,
+      "dc_share_pct": 0.29
+    },
+    {
+      "ba_code": "ISNE",
+      "dc_count": 139,
+      "capacity_mw": 43.6,
+      "electricity_twh": 173.79,
+      "dc_share_pct": 0.18
+    }
+  ]
+}
