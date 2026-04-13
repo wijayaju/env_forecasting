@@ -52,7 +52,7 @@ def extract_dc_info(file_path):
 
 def main():
     # Find all specs.txt files
-    specs_files = glob('html/state/*/city/*/dc/*/specs.txt')
+    specs_files = glob('../data/raw/html/state/*/city/*/dc/*/specs.txt')
     print(f"Found {len(specs_files)} specs files")
     
     results = []

@@ -13,14 +13,14 @@ def scrape_usa_datacenters():
         response = requests.get(url, headers=headers)
         response.raise_for_status()
         
-        # Create html folder if it doesn't exist
-        os.makedirs('html', exist_ok=True)
+        # Create output folder if it doesn't exist
+        os.makedirs('../data/raw/html', exist_ok=True)
         
-        # Save the HTML content as txt file in html folder
-        with open('html/usa.txt', 'w', encoding='utf-8') as f:
+        # Save the HTML content as txt file
+        with open('../data/raw/html/usa.txt', 'w', encoding='utf-8') as f:
             f.write(response.text)
         
-        print(f"Successfully saved HTML to html/usa.txt")
+        print(f"Successfully saved HTML to data/raw/html/usa.txt")
         print(f"File size: {len(response.text)} characters")
         
     except requests.RequestException as e:

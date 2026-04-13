@@ -25,8 +25,8 @@ warnings.filterwarnings('ignore')
 # Paths
 BASE_DIR = Path(__file__).parent.parent.parent
 DATA_DIR = BASE_DIR / "data"
-EIA_DIR = DATA_DIR / "eia861"
-OUTPUT_DIR = DATA_DIR / "models"
+EIA_DIR = DATA_DIR / "eia"
+OUTPUT_DIR = DATA_DIR / "outputs"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 # Years to process

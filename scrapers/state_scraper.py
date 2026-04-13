@@ -2,7 +2,7 @@
 """
 State Web Scraper
 Loops through state_links.txt and scrapes each state page,
-saving the HTML to html/state/{state}/{state}.txt
+saving the HTML to data/raw/html/state/{state}/{state}.txt
 """
 
 import requests
@@ -17,7 +17,7 @@ def scrape_states():
     }
     
     # Read the state links
-    with open('html/state_links.txt', 'r', encoding='utf-8') as f:
+    with open('../data/raw/html/state_links.txt', 'r', encoding='utf-8') as f:
         urls = [line.strip() for line in f if line.strip()]
     
     print(f"Found {len(urls)} URLs to scrape")
@@ -41,8 +41,8 @@ def scrape_states():
             response = requests.get(url, headers=headers, timeout=30)
             response.raise_for_status()
             
-            # Create directory html/state/{state}/
-            state_dir = f'html/state/{state_name}'
+            # Create directory data/raw/html/state/{state}/
+            state_dir = f'../data/raw/html/state/{state_name}'
             os.makedirs(state_dir, exist_ok=True)
             
             # Save HTML as {state}.txt
@@ -65,7 +65,7 @@ def scrape_states():
     print("="*50)
     print(f"Successful: {success_count}")
     print(f"Errors: {error_count}")
-    print(f"Files saved to: html/state/{{state}}/{{state}}.txt")
+    print(f"Files saved to: data/raw/html/state/{{state}}/{{state}}.txt")
 
 if __name__ == "__main__":
     scrape_states()

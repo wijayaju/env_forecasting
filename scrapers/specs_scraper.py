@@ -3,7 +3,7 @@
 Data Center Specs Scraper
 Loops through all city txt files, extracts data center URLs,
 and scrapes each data center's /specs/ page.
-Saves to html/state/{state}/city/{city}/dc/{dc-name}/specs.txt
+Saves to data/raw/html/state/{state}/city/{city}/dc/{dc-name}/specs.txt
 
 Implements rate limiting strategies:
 - Configurable delay between requests
@@ -109,7 +109,7 @@ def scrape_specs():
         'Upgrade-Insecure-Requests': '1',
     })
     
-    state_dir = 'html/state'
+    state_dir = '../data/raw/html/state'
     
     # Get all state folders
     states = [d for d in os.listdir(state_dir) if os.path.isdir(os.path.join(state_dir, d))]
@@ -225,7 +225,7 @@ def scrape_specs():
     print(f"Successful: {total_success}")
     print(f"Skipped (already done): {total_skipped}")
     print(f"Errors: {total_errors}")
-    print(f"Files saved to: html/state/{{state}}/city/{{city}}/dc/{{dc}}/specs.txt")
+    print(f"Files saved to: data/raw/html/state/{{state}}/city/{{city}}/dc/{{dc}}/specs.txt")
 
 if __name__ == "__main__":
     scrape_specs()

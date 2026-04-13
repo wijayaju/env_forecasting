@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 Parse city links from state txt files
-Loops through html/state/{state}/{state}.txt and extracts city links
-Saves them to html/state/{state}/city_links.txt
+Loops through data/raw/html/state/{state}/{state}.txt and extracts city links
+Saves them to data/raw/html/state/{state}/city_links.txt
 """
 
 import re
@@ -11,7 +11,7 @@ import os
 def parse_city_links():
     """Extract city links from all state txt files"""
     
-    state_dir = 'html/state'
+    state_dir = '../data/raw/html/state'
     
     # Get all state folders
     states = [d for d in os.listdir(state_dir) if os.path.isdir(os.path.join(state_dir, d))]

@@ -9,7 +9,7 @@ def parse_state_links():
     """Extract /usa/ links from usa.txt and save as full URLs"""
     
     # Read the HTML content
-    with open('html/usa.txt', 'r', encoding='utf-8') as f:
+    with open('../data/raw/html/usa.txt', 'r', encoding='utf-8') as f:
         content = f.read()
     
     # Find all href attributes with /usa/ pattern
@@ -27,13 +27,13 @@ def parse_state_links():
     # Convert to full URLs and sort
     full_urls = sorted([f"https://www.datacentermap.com{link}" for link in unique_links])
     
-    # Save to html/state_links.txt
-    with open('html/state_links.txt', 'w', encoding='utf-8') as f:
+    # Save to data/raw/html/state_links.txt
+    with open('../data/raw/html/state_links.txt', 'w', encoding='utf-8') as f:
         for url in full_urls:
             f.write(url + '\n')
     
     print(f"Found {len(full_urls)} unique state links")
-    print(f"Saved to html/state_links.txt")
+    print(f"Saved to data/raw/html/state_links.txt")
     
     # Print the links
     print("\nLinks:")

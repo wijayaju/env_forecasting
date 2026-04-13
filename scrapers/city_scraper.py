@@ -2,7 +2,7 @@
 """
 City Web Scraper
 Loops through all city_links.txt files in each state folder
-and scrapes each city page, saving to html/state/{state}/city/{city}/{city}.txt
+and scrapes each city page, saving to data/raw/html/state/{state}/city/{city}/{city}.txt
 """
 
 import requests
@@ -33,7 +33,7 @@ def scrape_cities():
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     }
     
-    state_dir = 'html/state'
+    state_dir = '../data/raw/html/state'
     
     # Get all state folders
     states = [d for d in os.listdir(state_dir) if os.path.isdir(os.path.join(state_dir, d))]
@@ -111,7 +111,7 @@ def scrape_cities():
     print(f"Successful: {total_success}")
     print(f"Skipped (already done): {total_skipped}")
     print(f"Errors: {total_errors}")
-    print(f"Files saved to: html/state/{{state}}/city/{{city}}/{{city}}.txt")
+    print(f"Files saved to: data/raw/html/state/{{state}}/city/{{city}}/{{city}}.txt")
 
 if __name__ == "__main__":
     scrape_cities()
