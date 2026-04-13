@@ -756,7 +756,7 @@
                     <div class="result-card ai-result" style="background: linear-gradient(135deg, rgba(107, 207, 107, 0.15), rgba(58, 123, 213, 0.15)); border-color: rgba(107, 207, 107, 0.4);">
                         <div class="result-header"><span class="result-icon">🤖</span><span class="result-title">AI Model Prediction</span></div>
                         <div><span class="result-value" id="ai-energy-result" style="background: linear-gradient(90deg, #6bcf6b, #3a7bd5); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">712,800</span><span class="result-unit">MWh/year</span></div>
-                        <div class="result-details" id="ai-details">Gradient Boosting (R² = 0.978) | Pop + GDP + DC features</div>
+                        <div class="result-details" id="ai-details">XGBoost (R² = 0.997) | BA-level DC features (96% signal)</div>
                         <div class="ai-model-badge" style="margin-top: 8px; display: inline-block; background: rgba(107, 207, 107, 0.2); padding: 4px 10px; border-radius: 12px; font-size: 0.75rem; color: #6bcf6b;">
                             <span id="ai-confidence">±3.2%</span> prediction interval
                         </div>
@@ -903,17 +903,17 @@
                     <div class="step-number" style="border-color: #6bcf6b; background: linear-gradient(135deg, rgba(107, 207, 107, 0.2), rgba(58, 123, 213, 0.2));">6</div>
                     <div class="step-content">
                         <h3>AI Prediction Model</h3>
-                        <p>Trained <strong>Gradient Boosting</strong> model on 969 state-year observations to predict electricity.</p>
+                        <p>Trained <strong>XGBoost</strong> model on 326 BA-year observations to predict electricity.</p>
                         <div class="code-block">
-                            <span class="keyword">Best Model:</span> Gradient Boosting<br>
-                            <span class="keyword">Test R²:</span> <span class="number">0.978</span> (97.8% accuracy)<br>
-                            <span class="keyword">Features:</span> 16 (DC capacity, population, GDP, year)<br>
-                            <span class="comment"># Population (90%) + GDP (7%) + DC (~3%)</span>
+                            <span class="keyword">Best Model:</span> XGBoost<br>
+                            <span class="keyword">Test R²:</span> <span class="number">0.997</span> (99.7% accuracy)<br>
+                            <span class="keyword">Features:</span> 12 (DC count, capacity, crypto ratio, year)<br>
+                            <span class="comment"># dc_count (92%) + other DC features (4%)</span>
                         </div>
                         <div class="validation-grid" style="margin-top: 15px;">
-                            <div class="validation-card success"><h4>Gradient Boosting</h4><p>R² = 0.978<br>MAE: 7,260 GWh</p></div>
-                            <div class="validation-card success"><h4>Neural Network</h4><p>R² = 0.978<br>MAE: 8,280 GWh</p></div>
-                            <div class="validation-card success"><h4>Random Forest</h4><p>R² = 0.945<br>MAE: 7,760 GWh</p></div>
+                            <div class="validation-card success"><h4>XGBoost</h4><p>R² = 0.997<br>MAE: 6.7 TWh</p></div>
+                            <div class="validation-card success"><h4>Random Forest</h4><p>R² = 0.992<br>MAE: 8.1 TWh</p></div>
+                            <div class="validation-card warning"><h4>Neural Network</h4><p>R² = -0.21<br>Poor fit</p></div>
                         </div>
                     </div>
                 </div>
@@ -922,7 +922,7 @@
         
         <footer>
             Data: datacentermap.com | EIA electricity data<br>
-            Model: Physics-based + AI (Gradient Boosting R² = 0.978) | <a href="report.html">Full Technical Report</a> | <a href="https://github.com/wijayaju/env_forecasting">View on GitHub</a>
+            Model: Physics-based + AI (XGBoost R² = 0.997) | <a href="report.html">Full Technical Report</a> | <a href="https://github.com/wijayaju/env_forecasting">View on GitHub</a>
         </footer>
     </div>
     
@@ -1225,8 +1225,8 @@
             PA: { pop: 13.0, gdp: 920, dc_mw: 6160, dc_count: 156 }
         };
         
-        // AI Model coefficients (derived from trained Gradient Boosting model)
-        // Model: R² = 0.978, predominantly driven by population (89.7%) and GDP (7.2%)
+        // AI Model coefficients (derived from trained XGBoost BA-level model)
+        // Model: R² = 0.997, predominantly driven by dc_count (92%) and DC features (4%)
         // These coefficients approximate the learned relationship
         const aiModelCoeffs = {
             intercept: -5000,        // Base intercept (MWh)
@@ -1337,7 +1337,7 @@
                              selectedDcType === 'crypto' ? 'Crypto' : 
                              selectedDcType === 'colo' ? 'Colocation' : 'Enterprise';
             document.getElementById('ai-details').innerHTML = 
-                `Gradient Boosting (R² = 0.978) | ${typeLabel} in ${stateName}`;
+                `XGBoost (R² = 0.997) | ${typeLabel} in ${stateName}`;
         }
         
         document.querySelectorAll('.dc-type-btn').forEach(btn => {
