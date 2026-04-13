@@ -4,8 +4,9 @@ A comprehensive project for scraping, analyzing, and predicting the energy impac
 
 ## 🔍 Key Findings
 
-- **87% DC Signal**: Multi-year BA-level model explains 87% of variance with data center features alone
-- **R² = 0.993**: High accuracy in predicting regional electricity consumption
+- **96% DC Signal**: XGBoost BA-level model explains 96% of variance with data center features alone
+- **R² = 0.997**: Extremely high accuracy in predicting regional electricity consumption  
+- **92% dc_count**: Data center count alone explains 92% of regional electricity variance
 - **4,592 Data Centers**: Comprehensive database scraped from datacentermap.com
 - **9.7% CAGR**: Data center capacity growing 9.7% annually (2019-2024)
 
@@ -84,20 +85,55 @@ env_forecasting/
 
 ---
 
-## 🚀 Getting Started
+## ⚡ Quick Start (For Teammates)
+
+```bash
+# Clone and install
+git clone https://github.com/wijayaju/env_forecasting.git
+cd env_forecasting
+make install
+
+# Test that dependencies work
+make test
+
+# View the website (easiest - no scripts needed)
+make website
+# Then open http://localhost:8080 in your browser
+
+# Run the XGBoost model
+make model
+
+# See all available commands
+make help
+```
+
+### Available Commands
+| Command | What it does |
+|---------|-------------|
+| `make install` | Install all Python dependencies |
+| `make website` | Start local website at http://localhost:8080 |
+| `make model` | Run the XGBoost prediction model |
+| `make scrape` | Run the DC scraper (~2 hours) |
+| `make test` | Check all dependencies are installed |
+| `make clean` | Remove generated cache files |
+
+---
+
+## 🚀 Installation (Manual)
 
 ### Prerequisites
 
 ```bash
 # Python 3.10+
-pip install pandas numpy scikit-learn requests beautifulsoup4 openpyxl joblib
+pip install -r requirements.txt
 ```
 
-### Installation
+### Clone & Setup
 
 ```bash
 git clone https://github.com/wijayaju/env_forecasting.git
 cd env_forecasting
+pip install -r requirements.txt
 ```
 
 ---
